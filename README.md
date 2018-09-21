@@ -1,5 +1,4 @@
-# HCI
-Человеко-машинное взаимодействие (Human-computer interaction)
+# Человеко-машинное взаимодействие (Human-computer interaction)
 
 ## Примерная структура курса
 
