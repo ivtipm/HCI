@@ -1,0 +1,39 @@
+/*Описание шрифтов*/
+
+body{
+     font: 20px/24px Roboto, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 24px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    text-align: center;
+    text-indent: 1em;
+    
+/*     Зададим высоту линии такой же как и у вмещающего блока, чтобы текст был по вертикальному центру */
+    line-height: 80px;
+    letter-spacing: 0.6em;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.menubar >a{
+    color: white;}
+
+
+.enter{
+    color: black;
+}
+
+
+.article-meta  *{
+    font-size: 0.8em;
+    color: #555;
+}
