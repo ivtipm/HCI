@@ -1,10 +1,12 @@
 /*Описание внешнего вида, за исключением шрифтов*/
 
+/* Страница целеком */
 body{
     background: #eee;
 }
 
 
+/* Заголовок (см. atcle.html, main.html) */
 header{
     background: black;
     box-shadow: 0 1px 10px #666;
@@ -45,6 +47,15 @@ article img{
     background: #666;
 }
 
+/* Заголовок на форме */
+#auth-form>h1{
+	color: #000;
+}
+
+/* Ссылка (забыли пароль) на форме */
+#auth-form>a{
+	color: blue;
+}
 
 
 
