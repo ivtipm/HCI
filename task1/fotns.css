@@ -6,7 +6,7 @@ body{
 
 h3{
     font-size: 24px;
-    color: black;
+    
 }
 
 a{
@@ -25,15 +25,16 @@ a{
 }
 
 .menubar >a{
-    color: white;}
+    /*color: white;*/
+}
 
 
 .enter{
-    color: black;
+    /*color: black;*/
 }
 
 
 .article-meta  *{
     font-size: 0.8em;
-    color: #555;
+    /*color: #555;*/
 }
