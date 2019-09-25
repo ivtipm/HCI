@@ -12,6 +12,7 @@ header{
     box-shadow: 0 1px 10px #666;
 }
 
+
 .logo{
     background: linear-gradient(white 0%, #bbb 50% , white 100%);
 }
@@ -21,7 +22,9 @@ header{
 }
 
 
-/* Стиль при наведении */
+/* описание стиля для тегов a, вложенных в теги с классом .menubar
+hover: Стиль при наведении 
+*/
 .menubar >a:hover{
     background: white;
     color: black;
@@ -29,12 +32,13 @@ header{
 }
 
 
-
+/* Стиль для статьи */
 article{
 /*     тень: на 2 вниз и впрао, размытие - 5 */
     box-shadow: 2px 2px 5px black;
 }
 
+/* Стиль для изображений внутри статьи */
 article img{
   display: block;
 	margin: auto;
@@ -64,7 +68,7 @@ li{
 	list-style-type: none;
 }
 
-
+/* Стиль для тегов под статьей */
 .tags{
 	margin-left: 10px;
 }
