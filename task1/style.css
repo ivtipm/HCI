@@ -64,7 +64,7 @@ article img{
 
 
 /* Оформление значков тегов */
-li{
+ul li{
 	list-style-type: none;
 }
 
