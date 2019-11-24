@@ -26,15 +26,43 @@ header{
 }
 
 
-/* описание стиля для тегов a, вложенных в теги с классом .menubar
-hover: Стиль при наведении 
-*/
-.menubar-button:hover{
+/* Кнопки разделов  */
+.menubar-button{
     background: white;
     color: black;
     border-radius: 5px;
 }
 
+/* hover: Стиль при наведении  */
+.menubar-button:hover{
+    background: red;
+    color: black;
+    border-radius: 5px;
+}
+
+
+/* Кнопка Войти */
+.enter{
+    
+}
+
+.enter *:hover{
+    color: red;
+}
+
+
+
+
+/*           Стили для статьи */
+
+/* Заголовок статьи */
+h2 {
+	color: black;}
+
+article{
+/*     тень: на 2 вниз и вправо, размытие - 5 */
+    box-shadow: 2px 2px 5px black;
+}
 
 /* Оформление значков тегов */
 ul li{
@@ -62,17 +90,12 @@ ul li{
 
 
 
+.article-author{
+    
+}
 
-
-/*           Стили для статьи */
-
-/* Заголовок статьи */
-h2 {
-	color: black;}
-
-article{
-/*     тень: на 2 вниз и вправо, размытие - 5 */
-    box-shadow: 2px 2px 5px black;
+.article-date{
+    
 }
 
 
