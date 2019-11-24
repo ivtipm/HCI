@@ -36,37 +36,6 @@ hover: Стиль при наведении
 }
 
 
-/* Стиль для статьи */
-article{
-/*     тень: на 2 вниз и вправо, размытие - 5 */
-    box-shadow: 2px 2px 5px black;
-}
-
-/* Стиль для изображений внутри статьи */
-article img{
-  display: block;
-	margin: auto;
-}
-
-
-
-/*Форма авторизации*/
-#auth-form{
-    background: #666;
-}
-
-/* Заголовок на форме */
-#auth-form>h1{
-	color: #000;
-}
-
-/* Ссылка (забыли пароль) на форме */
-#auth-form>a{
-	color: blue;
-}
-
-
-
 /* Оформление значков тегов */
 ul li{
 	list-style-type: none;
@@ -90,6 +59,50 @@ ul li{
 	color:#fff;
 	border-radius:4px;
 }
+
+
+
+
+
+/*           Стили для статьи */
+
+/* Заголовок статьи */
+h2 {
+	color: black;}
+
+article{
+/*     тень: на 2 вниз и вправо, размытие - 5 */
+    box-shadow: 2px 2px 5px black;
+}
+
+/* Стиль для изображений внутри статьи */
+article img{
+  display: block;
+	margin: auto;
+}
+
+
+
+
+
+/*Форма авторизации*/
+#auth-form{
+    background: #666;
+}
+
+/* Заголовок на форме */
+#auth-form>h1{
+	color: #000;
+}
+
+/* Ссылка (забыли пароль) на форме */
+#auth-form>a{
+	color: blue;
+}
+
+
+
+
 
 
 
