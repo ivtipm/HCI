@@ -26,7 +26,7 @@ header{
 /* описание стиля для тегов a, вложенных в теги с классом .menubar
 hover: Стиль при наведении 
 */
-.menubar >a:hover{
+.menubar-button:hover{
     background: white;
     color: black;
     border-radius: 5px;
