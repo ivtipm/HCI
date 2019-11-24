@@ -1,0 +1,119 @@
+/* Описание расположения (layout) элементов */
+/*Стили, шрифт, цвета и т.п. здесь не описываются*/
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* Шапка */
+.HEADER{
+    width: 100%;
+}
+
+
+/* Центральная часть шапки */
+header{
+/*     используем flex компоновку */
+    display: flex;
+    width: 1000px;
+/*     Центрируем элемент задав нулевые верхний и нижний отступы, левый и правый - автоматически */
+    margin: 0 auto;
+}
+
+
+.logo{
+    height: 80px;
+    width: 200px; 
+}
+
+
+.menubar{
+    margin: auto auto;
+}
+
+/* Ссылки в верхнем меню */
+.menubar-button{
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.enter{
+    background: white;
+/*     сместим блок вправо задав автоматический левый отступ */
+    margin: auto auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Основная часть */
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.article-abstract{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.article-abstract > img{
+    height: 200px;
+    margin: 10px;
+}
+
+.article-meta{
+    display: flex;
+    flex-direction: row;    
+}
+
+.article-meta > *{
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+.article-date{
+    margin-left:auto;
+}
+
+
+/* Стиль для изображений внутри статьи */
+article img{
+  display: block;
+	margin: auto;
+}
+
+
+
+
+
+/* Подвал */
+.FOOTER{
+    height: 80px;
+    width: 100%;
+}
+
+
+footer{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
