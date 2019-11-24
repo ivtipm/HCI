@@ -3,7 +3,10 @@
 
 /* Страница целиком */
 body{
-    background: green;
+/* 	  цвет фона */
+    background: green;  
+/* 	цвет текста */
+    color: black;
 }
 
 
