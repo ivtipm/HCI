@@ -1,6 +1,8 @@
 /* Описание внешнего вида, за исключением шрифтов */
 /* Расположение элементов (layout) описывается в layout.css */
 
+
+
 /* Страница целиком */
 body{
 /* 	  цвет фона */
@@ -10,7 +12,9 @@ body{
 }
 
 
+
 /* Заголовок (см. atcle.html, main.html) */
+
 header{
     background: black;
     box-shadow: 0 1px 10px #666;
@@ -21,12 +25,12 @@ header{
     background: linear-gradient(white 0%, #bbb 50% , white 100%);
 }
 
+
+/* Кнопки разделов  */
 .menubar{
     color: black;
 }
 
-
-/* Кнопки разделов  */
 .menubar-button{
     background: white;
     color: black;
@@ -43,7 +47,7 @@ header{
 
 /* Кнопка Войти */
 .enter{
-    
+    background: white;
 }
 
 .enter *:hover{
@@ -52,10 +56,25 @@ header{
 
 
 
+/* Боковой раздел */
 
-/*           Стили для статьи */
+aside{
+    background: yellow;}
 
-/* Заголовок статьи */
+
+
+/* Основной раздел */
+
+aside h2{
+    text-align: center;
+}
+
+.side-topics{
+}
+
+
+/* Стили для статьи */
+
 h2 {
 	color: black;}
 
@@ -89,20 +108,14 @@ ul li{
 }
 
 
+.article-author{}
 
-.article-author{
-    
-}
-
-.article-date{
-    
-}
-
-
+.article-date{}
 
 
 
 /*Форма авторизации*/
+
 #auth-form{
     background: #666;
 }
@@ -116,13 +129,3 @@ ul li{
 #auth-form>a{
 	color: blue;
 }
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,13 @@
 /* Описание расположения (layout) элементов */
 /*Стили, шрифт, цвета и т.п. здесь не описываются*/
 
+
+:root{
+    --main-width: 1280px;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -11,7 +18,9 @@ body{
 }
 
 
+
 /* Шапка */
+
 .HEADER{
     width: 100%;
 }
@@ -21,7 +30,7 @@ body{
 header{
 /*     используем flex компоновку */
     display: flex;
-    width: 1000px;
+    width: var(--main-width);
 /*     Центрируем элемент задав нулевые верхний и нижний отступы, левый и правый - автоматически */
     margin: 0 auto;
 }
@@ -29,7 +38,7 @@ header{
 
 .logo{
     height: 80px;
-    width: 200px; 
+    width: 213px; 
 }
 
 
@@ -45,7 +54,6 @@ header{
 
 
 .enter{
-    background: white;
 /*     сместим блок вправо задав автоматический левый отступ */
     margin: auto auto;
     padding: 5px;
@@ -54,13 +62,31 @@ header{
 
 
 
-
-
-/* Основная часть */
-main{
-    width: 1000px;
+/* Всё от шапки до футера */
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    width: var(--main-width);
     margin: 0 auto;
 }
+
+
+
+/* боковой блок */
+aside{
+    flex: 1;
+    margin-top: 20px;
+}
+
+
+
+/* Основная часть  */
+main{
+    flex: 5;
+}
+
+
 
 article{
     display: flex;
@@ -98,7 +124,7 @@ article{
 /* Стиль для изображений внутри статьи */
 article img{
   display: block;
-	margin: auto;
+  margin: auto;
 }
 
 
