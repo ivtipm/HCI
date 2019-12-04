@@ -50,8 +50,10 @@ header{
     background: white;
 }
 
-.enter *:hover{
+
+.enter:hover{
     color: red;
+    background: red;
 }
 
 
