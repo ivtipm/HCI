@@ -39,4 +39,8 @@ HCI_lec_6_UI_analysis.pdf
 Ссылки:
 
 - https://www.lazarus-ide.org (Lazarus)
+
 - https://www.embarcadero.com/ru/products/delphi/starter (Delphi Community)
+- http://docwiki.embarcadero.com/RADStudio/Rio/en/Tutorials (Документация и руководства)
+
+
