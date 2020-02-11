@@ -33,3 +33,10 @@ HCI_lec_6_UI_analysis.pdf
   * закон Хикка
   * GOMS
   * информационная эффективность
+
+
+## Первый курс. Визуальное программирование
+Ссылки:
+
+- https://www.lazarus-ide.org (Lazarus)
+- https://www.embarcadero.com/ru/products/delphi/starter (Delphi Community)
