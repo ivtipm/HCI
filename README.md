@@ -1,5 +1,8 @@
 # Человеко-машинное взаимодействие (Human-computer interaction)
 
+## Текущие задания для первого курса
+[Задания. Первый курс.](https://github.com/ivtipm/HCI/blob/master/Tasks.%202020-spring.md)
+
 ## Примерная структура курса
 
 ### 1. Введение. Человек.
@@ -10,7 +13,7 @@ HCI_lec_1.pdf
   HCI_lec_2.pdf
    * приниципы человеко-ориентированного дизайна
    * ментальная модель
-    
+
 ### 3. Обзор и классификация интенфельсов пользователя
 HCI_lec_3.pdf
 
@@ -23,7 +26,7 @@ HCI_sem_4.pdf
    * слои ИХ
    * юзабилити
    * тестирование юзабилити
-   
+
 ### 6. Типографика
 HCI_lec_5_typography.pdf
 
@@ -44,5 +47,3 @@ Lazarus
 Delphi
 - https://www.embarcadero.com/ru/products/delphi/starter (Delphi Community)
 - http://docwiki.embarcadero.com/RADStudio/Rio/en/Tutorials (Документация и руководства)
-
-
