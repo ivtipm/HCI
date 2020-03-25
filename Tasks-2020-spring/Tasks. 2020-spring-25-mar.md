@@ -8,7 +8,7 @@
 
 
 ## Лабораторное занятие
-- Добавится в канал HCI
+- Добавиться в канал HCI
 - Для ранее разработанные программы на Lazarus ( первые две задачи из задачника по программированию) выполнить следущее:
 - Добавить меню программы (компонент TMainMenu) Файл с пунктами: Открыть, Сохранить, Сохранить отчёт, Выход;
 - Пример работы с TMainMenu [gospodaretsva.com/urok-9-komponent-menyu-tmainmenu.html](https://gospodaretsva.com/urok-9-komponent-menyu-tmainmenu.html)
