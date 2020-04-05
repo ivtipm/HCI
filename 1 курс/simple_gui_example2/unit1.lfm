@@ -1,0 +1,173 @@
+object MainForm: TMainForm
+  Left = 710
+  Height = 620
+  Top = 218
+  Width = 380
+  Caption = 'Экспоненциальный рост'
+  ClientHeight = 595
+  ClientWidth = 380
+  Constraints.MaxHeight = 620
+  Constraints.MaxWidth = 380
+  Constraints.MinHeight = 620
+  Constraints.MinWidth = 380
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.2.0'
+  object Label_a: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 20
+    Height = 19
+    Top = 20
+    Width = 236
+    BorderSpacing.Left = 20
+    BorderSpacing.Top = 20
+    Caption = 'начальное значение популяции (а)'
+    ParentColor = False
+  end
+  object Label_tau: TLabel
+    AnchorSideTop.Control = Edit_tau
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Control = Edit_tau
+    Left = 49
+    Height = 19
+    Top = 65
+    Width = 202
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 15
+    Caption = 'параметр скорости роста (tau)'
+    ParentColor = False
+  end
+  object Edit_a: TEdit
+    AnchorSideLeft.Control = Label_a
+    AnchorSideLeft.Side = asrBottom
+    Left = 266
+    Height = 29
+    Top = 16
+    Width = 80
+    BorderSpacing.Left = 10
+    TabOrder = 0
+    Text = '1'
+  end
+  object Edit_tau: TEdit
+    AnchorSideLeft.Control = Edit_a
+    AnchorSideTop.Control = Edit_a
+    AnchorSideTop.Side = asrBottom
+    Left = 266
+    Height = 29
+    Top = 60
+    Width = 80
+    BorderSpacing.Top = 15
+    TabOrder = 1
+    Text = '1'
+  end
+  object Memo_report: TMemo
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label_res
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 10
+    Height = 344
+    Top = 241
+    Width = 360
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    TabOrder = 2
+  end
+  object Button_calc: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Edit_t
+    AnchorSideTop.Side = asrBottom
+    Left = 129
+    Height = 49
+    Top = 153
+    Width = 123
+    BorderSpacing.Top = 20
+    Caption = 'Считать'
+    OnClick = Button_calcClick
+    TabOrder = 3
+  end
+  object Label_res: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Button_calc
+    AnchorSideTop.Side = asrBottom
+    Left = 20
+    Height = 19
+    Top = 217
+    Width = 69
+    BorderSpacing.Left = 20
+    BorderSpacing.Top = 15
+    Caption = 'Результат'
+    ParentColor = False
+  end
+  object Label_time: TLabel
+    AnchorSideTop.Control = Edit_t
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Control = Edit_t
+    Left = 193
+    Height = 19
+    Top = 109
+    Width = 58
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 15
+    Caption = 'время (t)'
+    ParentColor = False
+  end
+  object Edit_t: TEdit
+    AnchorSideLeft.Control = Edit_tau
+    AnchorSideTop.Control = Edit_tau
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Edit_tau
+    AnchorSideRight.Side = asrBottom
+    Left = 266
+    Height = 29
+    Top = 104
+    Width = 80
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 15
+    TabOrder = 4
+    Text = '1'
+  end
+  object MainMenu1: TMainMenu
+    left = 112
+    top = 232
+    object MenuItem_file: TMenuItem
+      Caption = 'Файл'
+      object MenuItem_open: TMenuItem
+        Caption = 'Открыть'
+        OnClick = MenuItem_openClick
+      end
+      object MenuItem_save: TMenuItem
+        Caption = 'Сохранить'
+        OnClick = MenuItem_saveClick
+      end
+      object MenuItem_save_report: TMenuItem
+        Caption = 'Сохранить отчёт'
+        OnClick = MenuItem_save_reportClick
+      end
+      object MenuItem_exit: TMenuItem
+        Caption = 'Выход'
+        OnClick = MenuItem_exitClick
+      end
+    end
+    object MenuItem_help: TMenuItem
+      Caption = 'Справка'
+      OnClick = MenuItem_helpClick
+    end
+  end
+  object OpenDialog: TOpenDialog
+    left = 112
+    top = 312
+  end
+  object SaveDialog: TSaveDialog
+    left = 112
+    top = 392
+  end
+end

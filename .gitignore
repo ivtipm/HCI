@@ -1,0 +1,4 @@
+backup/
+lob/
+*.o
+*.ppu
