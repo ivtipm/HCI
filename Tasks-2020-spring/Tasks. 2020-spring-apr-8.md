@@ -51,7 +51,7 @@
     - Программа не должна выдавать не понятных пользователю ошибок
 
 ### git
-  - Изучить слайды 1-28 по git: https://github.com/VetrovSV/Programming/blob/master/git_lec.pdf
+  - Изучить слайды 1-29, 38-44  по git: https://github.com/VetrovSV/Programming/blob/master/git_lec.pdf
   - Ответить на вопросы
     - Что такое система управления версиями?
     - Что такое репозиторий?
