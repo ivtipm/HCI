@@ -24,3 +24,6 @@
 ## Задания
 1. [март 28](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-25-mar.md)
 1. [апрель 8](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-8.md)
+1. [апрель 15](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-8.md) (задание то же самое, что и 8 апреля)
+
+1. [апрель 22](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-22.md)
