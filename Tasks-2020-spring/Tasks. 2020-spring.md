@@ -32,3 +32,5 @@
 1. [апрель 15](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-8.md) (задание то же самое, что и 8 апреля)
 
 1. [апрель 22](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-22.md)
+
+1. [апрель 29](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-29.md)
