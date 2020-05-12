@@ -36,3 +36,5 @@
 1. [апрель 29](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-29.md)
 
 1. [май 6](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-6.pdf)
+
+1. [май 13](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-13.md)
