@@ -1,0 +1,222 @@
+:root{
+/* Здесь описываются CSS переменные 
+   Имя переменной начинается с --
+   Значение переменной записывается после двоеточия.
+  
+  Все эти перменные используются в коде ниже.
+  
+  Рекомендуется изменять эти переменные, 
+  а не указывать отдельные цвета где-то в середине этой файла.
+ 
+   */
+  
+/*   основной цвет !!! */
+  --primary: #006675;
+
+/* освновной цвет текста !!! */
+  --text: #000;
+
+/* дополнительный цвет !!! */
+  --secondary: #f0fdff;
+/* долполнительный цвет. светлый вариант !!! */
+  --secondary-light: #fff;
+  
+/*   Акцидентный цвет и цвет шрифта на его фоне */
+  --accent: #377500;
+  --accent-text: #ffffff;
+  
+  --accent2: #244d00;  /* используется только для подсветки кнопки акцидентного цвета при наведении */
+  --accent2-text: #ffffff;
+  
+/* основной размер шрифта !!! */
+  --size: 18px;
+  
+/* остальные размеры текста 
+   Они заданы для заголовкой и больших элементов 
+  в относительных еденицах. За 1 принят размер текста в body.
+  
+  */
+  --size2: 1.15em;
+  --size3: 1.38em;
+  --size4: 1.9em;
+}
+
+
+/* Для всей страницы !!! */
+body{
+  font-family: Helvetica, Times;    /* Основной и запасной шрифт */
+  /* Здесь задётся размер шрифта с помошью переменной. Переменная оборачивается в var*/
+  font-weight: 800;
+  font-size: var(--size);    
+/*   цвет шрифта всей страницы */
+  color: var(--text);
+  /* цвет фона всей страницы */
+  background: var(--secondary-light);     /* !!! */
+}
+
+
+
+
+/* Настройка внешнего вида списков, ссылок и отступа для параграфа */
+li{
+  list-style-type: none;}
+
+
+.row li{
+  list-style-type: square;}
+
+
+a{
+  text-decoration: none;}
+
+p{
+  margin: 5px 10px;}
+
+
+/* заголовоки первого-третьего уровня */
+h1{
+  font-size: var(--size4)
+}
+
+h2{
+  font-size: var(--size3)
+}
+
+h3{
+  font-size: var(--size2)
+}
+
+
+
+/* Шапка */
+header{                       /* !!! */
+  background: var(--secondary-light);
+  color: var(--text);
+}
+
+/* Заголовок и подзаголовок вместе */
+.Title{
+    /* Для заколовка можно задать особенный шрифт */
+/*   font-family: Georgia;      */
+}
+
+
+/* Правая часть заголовка */
+.Title-right{
+  background: var(--secondary-light);
+  color: var(--text);
+  
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+/* Ссылка в заголовке (справа) */
+.Title-right a{
+  background: var(--secondary-light);
+  color: var(--primary);
+}
+
+/* Посещеная ссылка в заголовке (справа) */
+.Title-right a:visited{
+  background: var(--secondary-light);
+  color: var(--primary);
+}
+
+
+
+/* Навигация (строка меню) */
+.main-nav{
+  background: var(--primary);  /* !!! */
+  font-size: var(--size2);             /* --- */
+  margin-bottom: 30px;  
+}
+
+
+/* Текст элемента меню */
+.main-nav li a{
+  text-decoration: none;
+  color: white;                 /* ---- */
+  
+  height: 100%;
+  padding: 29px;
+}
+
+
+/* Текст элемента меню при наведении*/
+.main-nav li a:hover{
+  background: var(--accent);        /* --- */
+  color: var(--accent-text);        /* --- */
+}
+
+
+
+
+
+/* Основной раздел */
+.main-section{
+  margin-left: 15px;
+  background: var(--secondary-light);            /* !!! */
+}
+
+
+/* Блоки основного раздела */
+.row{
+  background: var(--secondary);       /* !!! */
+  font-weight: 500;
+  color: var(--text);                        /* !!! */
+  
+  padding: 30px;  
+}
+
+
+/* .cite-author{
+  text-align: right;
+}
+ */
+
+
+/* Для исходного кода */
+code{
+  font-family: courier;             /* !!! */
+  display: block;
+  white-space: pre-wrap   
+}
+
+
+
+
+
+/* Заметная кнопка */
+.click-me{
+  background: var(--accent);      /* --- */
+  color: var(--accent-text);
+  border-radius: 7px;
+  padding: 8px 20px;
+  
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;             /* --- */
+ 
+}
+
+/* Заметная кнопка. При наведении */
+.click-me:hover{
+  background: var(--accent2);      /* --- */
+  color: var(--accent2-text);
+}
+
+
+
+
+
+/* Нижняя часть сайта, "подвал" */
+footer{
+  color: white;                     /* !!! */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+

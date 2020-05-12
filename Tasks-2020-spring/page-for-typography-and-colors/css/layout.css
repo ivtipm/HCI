@@ -1,0 +1,71 @@
+/* Здесь описан layout -- макет, расположение элементов,
+внешний вид элементов описан в style.css
+
+Этот файл не рекомендуется изменять. Кроме случаев, 
+если вы точно знаете, что делаете.
+*/
+
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+}
+
+
+
+/* Навигация */
+.main-nav{
+  display: flex; 
+  justify-content: flex-start;
+  height: 80px;
+  align-items: center;
+}
+
+
+
+/* Основная часть */
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+
+main section{
+  display: flex;
+  flex-direction: column;
+  flex: 2.5;
+}
+
+
+.row{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.end-row{
+  display: flex;
+}
+
+.end-row span{
+  margin: 0 auto;
+}
+
+
+footer{
+  width: 100%;
+  height: 100px;
+  background: gray;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
