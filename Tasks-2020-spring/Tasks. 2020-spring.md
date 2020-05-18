@@ -27,14 +27,18 @@
 
 
 ## Задания
-1. [март 28](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-25-mar.md)
-1. [апрель 8](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-8.md)
+1. [март 25](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-25-mar.md). Работа над UI в Lazarus. UseCase диаграмма. 2 программы: Memo, меню, загрузка\сохранение, сохранение отчёта, отдельный модуль.
+
+1. [апрель 8](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-8.md) Доработка 2-x программ: проверка входных данных. Git.
+
 1. [апрель 15](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-8.md) (задание то же самое, что и 8 апреля)
 
-1. [апрель 22](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-22.md)
+1. [апрель 22](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-22.md) Макет UI в Figma
 
-1. [апрель 29](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-29.md)
+1. [апрель 29](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-apr-29.md) 1 программа: TSTringGrid
 
-1. [май 6](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-6.pdf)
+1. [май 6](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-6.pdf) Типографика, короткий реферат.
 
-1. [май 13](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-13.md)
+1. [май 13](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-13.md) Дизайн веб-странцы: типографика и цветовые схемы.
+
+1. [май 13](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-13.md) (задание то же самое, что и 13 мая)
