@@ -42,3 +42,5 @@
 1. [май 13](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-13.md) Дизайн веб-странцы: типографика и цветовые схемы.
 
 1. [май 20](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-20.md) (Лекция + продолжения задания от 13 мая)
+
+1. [май 20](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring-may-27.md) (Персонажи)
