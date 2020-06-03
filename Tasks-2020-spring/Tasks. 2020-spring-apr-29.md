@@ -35,4 +35,4 @@ var
 - Исходный код программы добавить в новую папку репозитория (с названием 29 april). В папке должен быть и скриншот окна программы.
 
 
-[вернуться к списку заданий](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)**
+[вернуться к списку заданий](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)
