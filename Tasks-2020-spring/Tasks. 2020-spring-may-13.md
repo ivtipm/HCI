@@ -142,10 +142,11 @@ h2{
 1. Эстетика цветовой схемы.
 
 
-[вернуться к списку заданий](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)**
+[вернуться к списку заданий](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)
 
 # Ссылки
 1. [HTML и CSS](http://htmlbook.ru/)
+1. [лекция по дизану и цветам](https://github.com/ivtipm/HCI/blob/master/HCI_sem.%20Design%2C%20color%2C%20gestalt.pdf)
 <!-- 1. Ссылка на лекцию про типографику -->
 <!-- 1. Ссылка на лекцию про дизайн и цвета -->
 <!-- 1. Ссылка на цветовые схемы? -->

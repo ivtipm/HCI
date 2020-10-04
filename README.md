@@ -1,6 +1,6 @@
 # Человеко-машинное взаимодействие (Human-computer interaction)
 
-## [Текущие задания для первого курса](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)
+## [Первый курс. Весна 2020](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)
 
 ## Примерная структура курса
 
