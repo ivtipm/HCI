@@ -1,6 +1,6 @@
 # Человеко-машинное взаимодействие (Human-computer interaction)
 
-## [Первый курс. Весна 2020](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)
+## [Текущий план и задания](https://github.com/ivtipm/HCI/blob/master/tasks-2020-fall/tasks-2020-fall.md)
 
 ## Примерная структура курса
 
@@ -13,18 +13,19 @@ HCI_lec_1.pdf
    * приниципы человеко-ориентированного дизайна
    * ментальная модель
 
-### 3. Обзор и классификация интенфельсов пользователя
-HCI_lec_3.pdf
 
-### 4. Коротко о мобильных интерфйесах
-HCI_lec_3.pdf
-
-### 5. User Expirience (UX)
+### 3. User Expirience (UX)
 HCI_lec_4.pdf
 HCI_sem_4.pdf
    * слои ИХ
    * юзабилити
    * тестирование юзабилити
+   
+### 4. Обзор и классификация интенфельсов пользователя
+HCI_lec_3.pdf
+
+### 5. Коротко о мобильных интерфйесах
+HCI_lec_3.pdf
 
 ### 6. Типографика
 HCI_lec_5_typography.pdf
