@@ -1,10 +1,10 @@
-## Декабрь 21  
+## Декабрь 28
 ### Лекция
 - 12:00 в zoom 
 - Разбор вопросов. Повторение прошлого материала.
 - Лекция: Анализ юзабилити.
 - Слайды: 
-  - https://github.com/ivtipm/HCI/blob/master/HCI_lec_6.%20Typography.pdf
+  - https://github.com/ivtipm/HCI/blob/master/HCI_lec_7.%20UI%20analysis.pdf
   
 
 ## Практическое задание
