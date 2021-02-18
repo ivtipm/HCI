@@ -1,6 +1,6 @@
 # Человеко-машинное взаимодействие (Human-computer interaction)
 
-## [Текущий план и задания](https://github.com/ivtipm/HCI/blob/master/tasks-2020-fall/tasks-2020-fall.md)
+## [курс 2020](https://github.com/ivtipm/HCI/blob/master/tasks-2020-fall/tasks-2020-fall.md)
 
 ## Примерная структура курса
 
