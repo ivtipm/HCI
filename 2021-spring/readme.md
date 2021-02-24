@@ -1,3 +1,9 @@
+# Семинар 2
+- Доклады.
+- Опрос.
+- Продолжение лекции?
+
+
 # Семинар 1
 - Дизайн, сравнение дизайна Windows и Mac OS
 - слайды: https://github.com/ivtipm/HCI/blob/master/HCI_sem.%20Design%2C%20color%2C%20gestalt.pdf
@@ -11,8 +17,5 @@
 - Слайды: https://github.com/ivtipm/HCI/blob/master/HCI_lec_1.%20Human.pdf
 
 
-# Семинар 2
-- Доклады.
-- Опрос.
-- Продолжение лекции?
+
 
