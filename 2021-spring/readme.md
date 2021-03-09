@@ -1,3 +1,8 @@
+# Лекция 2
+- Введение. Человек. Продолжение.
+- Память. Внимание. Локус внимания.
+- Слайды: https://github.com/ivtipm/HCI/blob/master/HCI_lec_1.%20Human.pdf
+
 # Семинар\Практика 3
 - Доклады
 - Создание приложений с GUI в Lazarus (https://lazarus-rus.ru/)
