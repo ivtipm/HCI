@@ -1,6 +1,17 @@
 # Практика 7 (апрель 01)
 - Создайте программу, которая создаёт случайны матрицу заданного размера
 - Для вывода матрицы используйте TStringGrid (вкладка Additional)
+   - Подсказки
+   ```delphi
+   # обращение к ячейке
+   MyStringGrid.Cells[0,0] := InToFloat( 42 );
+   
+   // число столбцов
+   MyStringGrid.ColCount := 3;
+   
+   // число строк
+   MyStringGrid.RowCount := 3;
+   ```
 - Соблюдайте шаблон MVC
 - пример: https://github.com/ivtipm/HCI/tree/master/1%20%D0%BA%D1%83%D1%80%D1%81/TStringGrid%20example
 - Требование
