@@ -11,6 +11,8 @@
    
    // число строк
    MyStringGrid.RowCount := 3;
+   
+   Задайте свойства FixedRows и FixedCols равными нулю чтобы убрать особый стиль первой строки и первго столбца
    ```
 - Соблюдайте шаблон MVC
 - пример: https://github.com/ivtipm/HCI/tree/master/1%20%D0%BA%D1%83%D1%80%D1%81/TStringGrid%20example
