@@ -1,3 +1,19 @@
+# Практика 11
+апрель 29
+- тест
+- защита диаграммы вариантов использования
+
+
+# Семинар\Практика 10 (апрель 22)
+- загрузите работы на гитхаб
+
+
+# Лекция 5
+апрель 21
+- Количественные способы оценки интерфейса
+- https://github.com/ivtipm/HCI/blob/master/HCI_lec_7.%20UI%20analysis.pdf
+
+
 # Семинар\Практика 9 (апрель 15)
 - доклад: персонажи, сценарии
 - создание диаграммы прецедентов в [draw.io](https://app.diagrams.net/)
@@ -7,13 +23,16 @@
 - закончите диаграмму прецедентов
 
 
-
 # Семинар\Практика 8 (апрель 08)
 - доклад: персонажи
 - добавьте [привязки](http://www.freepascal.ru/article/lazarus/20090217210602/) в два ваших проекта на Lazarus
 
 
-
+# Лекция 4. Юзабилити
+апрель 7
+- UX. (продолжение)
+- Юзабилити
+- Слайды: https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_4.%20UX.pdf, https://github.com/ivtipm/HCI/blob/master/HCI_lec_5.%20Usability.pdf
 
 
 # Практика 7 (апрель 01)
@@ -57,7 +76,11 @@
 - завершите за две недели
 
 
-# Лекция 3
+
+
+
+# Лекция 3. UX
+март 24
 - UX
 - Слайды: https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_4.%20UX.pdf
 
@@ -116,7 +139,7 @@
 RoundTo( 3/7, -2 )
 ```
 
-# Лекция 2
+# Лекция 2. Человек. Память. Внимание. Понимание.
 - Введение. Человек. Продолжение.
 - Память. Внимание. Локус внимания.
 - Слайды: https://github.com/ivtipm/HCI/blob/master/HCI_lec_1.%20Human.pdf
@@ -152,7 +175,7 @@ RoundTo( 3/7, -2 )
 - Задание 1
 - https://github.com/ivtipm/HCI/blob/master/%D0%A7%D0%9C%D0%92.%20%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf
 
-# Лекция 1
+# Лекция 1. Введение. Человек.
 - Введение. Человек.
 - Слайды: https://github.com/ivtipm/HCI/blob/master/HCI_lec_1.%20Human.pdf
 
