@@ -3,6 +3,8 @@
 - черновики (примеры):
    - https://www.figma.com/file/7st4qYqMnAtlvHWVEgiVhu/Untitled?node-id=0%3A1
    - https://www.figma.com/file/Bk8J2Jc0fW3OfArXufCBeM/Untitled
+- о работе в figma: https://www.youtube.com/watch?v=ljUGwDWTDX8
+
 
 # Практика 11
 апрель 29
