@@ -1,3 +1,6 @@
+# Практика 12
+- задание 4 и 5: https://github.com/ivtipm/HCI/blob/master/%D0%A7%D0%9C%D0%92.%20%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf
+
 # Практика 11
 апрель 29
 - тест
