@@ -3,6 +3,7 @@
 - черновики (примеры):
    - https://www.figma.com/file/7st4qYqMnAtlvHWVEgiVhu/Untitled?node-id=0%3A1
    - https://www.figma.com/file/Bk8J2Jc0fW3OfArXufCBeM/Untitled
+   - пример разработчиков figma: https://www.figma.com/file/l3tF2DrmGPqCvdKORKlm3x/Wireframing-in-Figma
 - о работе в figma: https://www.youtube.com/watch?v=ljUGwDWTDX8
 
 
