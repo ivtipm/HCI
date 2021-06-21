@@ -79,7 +79,7 @@ begin
   // если удаётся, то возвращает true. Если нет - false
   if TryStrToFloat(Edit_a.Text, a) = false then
     begin
-    Edit_a.Color:= clGradientActiveCaption;
+    Edit_a.Color:= clGradientActiveCaption;       // todo: выбрать другой цвет
     ShowMessage('Неправильно введён параметр a');
     exit;
     // сразу выходим из процедуры если поле ввода для a заполнено неправильно.
