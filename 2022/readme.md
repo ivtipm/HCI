@@ -1,3 +1,7 @@
+# Практика 2
+- февраль 23, 25
+- Программы с GUI в Lazarus.
+
 # Практика 1
 - 09, 11 февраля
 - Слайды: https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_sem.%20Design%2C%20color%2C%20gestalt.pdf
@@ -14,4 +18,4 @@ https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97
 ### Домашнее задание
 - Изучите слайды полностью
 - Скачайте рекомендованную литературу
-
+- Установите Lazarus: https://www.lazarus-ide.org/
