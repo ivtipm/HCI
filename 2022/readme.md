@@ -1,6 +1,16 @@
 # Практика 2
 - февраль 23, 25
-- Программы с GUI в Lazarus.
+- Создание программ в Lazarus. (см. дискорд)
+
+# Лекция 1
+- 18 февраля
+- Введение. Проблемы и задачи ЧМВ. 
+- Слайды: https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_1.%20Human.pdf
+
+### Домашнее задание
+- Изучите слайды полностью
+- Скачайте рекомендованную литературу
+- Установите Lazarus: https://www.lazarus-ide.org/
 
 # Практика 1
 09, 11 февраля
@@ -14,11 +24,3 @@ https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97
 - Скачайте рекомедованную литературу
 - Изучите ссылки из слайдов
 
-# Лекция 1
-- 18 февраля
-- Слайды: https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_1.%20Human.pdf
-
-### Домашнее задание
-- Изучите слайды полностью
-- Скачайте рекомендованную литературу
-- Установите Lazarus: https://www.lazarus-ide.org/
