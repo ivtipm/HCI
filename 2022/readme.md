@@ -28,6 +28,14 @@
     - как изменить имя переменной, отвечающей за элемент интерфейса?
 
 
+### Ссылки
+- http://www.freepascal.ru/
+- http://intuit.valrkl.ru/course-1265/index.html - Программирование на Lazarus
+- http://www.freepascal.ru/download/pdf/osnovy_programmirovanija_v_srede_lazarus.pdf - Основы программирования
+в среде Lazarus
+
+<br>
+
 # Практика 1
 09, 11 февраля
 - Информация о курсе. Обзор заданий. Литература и источники. 
