@@ -13,8 +13,9 @@
 - Доклады
 - Создание программ в Lazarus. (см. дискорд)
   - Пример: https://github.com/ivtipm/HCI/tree/master/1%20%D0%BA%D1%83%D1%80%D1%81/simple_gui_example2
+  - См. пример в дискорде
 
-**Дополнительно**
+**Дополнительно** \\
 https://devlaz.ru/lazarus-%D0%B2-%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC-%D0%BE%D0%BA%D0%BD%D0%B5/ -- превратить окна Lazarus в панели
 
 
