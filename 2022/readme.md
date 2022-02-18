@@ -14,7 +14,6 @@
   - меню программы; ShowMessage;
   - свойства компонентов: цвета, шрифт; избранные свойства; события
   - Привязки (Anchors); 
-
 - Пример: ...
 
 
@@ -38,6 +37,8 @@
 ```pascal
 RoundTo( 3/7, -2 )
 ```
+
+<br>
 
 # Лекция 1
 18 февраля
@@ -79,6 +80,7 @@ https://devlaz.ru/lazarus-%D0%B2-%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC-%D0%BE%D0%BA%D0%
 - http://intuit.valrkl.ru/course-1265/index.html - Программирование на Lazarus
 - http://www.freepascal.ru/download/pdf/osnovy_programmirovanija_v_srede_lazarus.pdf - Основы программирования
 в среде Lazarus
+- https://www.youtube.com/watch?v=VWHec3Fwuck - Уроки программирования в Lazarus. Урок №1. Обзор среды программирования, типов проектов в Lazarus
 
 <br>
 
