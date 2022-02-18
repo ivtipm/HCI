@@ -1,5 +1,6 @@
 # Человеко-машинное взаимодействие (Human-computer interaction)
 
+## [курс 2022](2022/readme.md)
 ## [курс 2021](https://github.com/ivtipm/HCI/blob/master/2021-spring/readme.md)
 ## [курс 2020 (осень)](https://github.com/ivtipm/HCI/blob/master/tasks-2020-fall/tasks-2020-fall.md)
 ## [курс 2020 (весна)](https://github.com/ivtipm/HCI/blob/master/Tasks-2020-spring/Tasks.%202020-spring.md)
