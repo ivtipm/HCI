@@ -3,21 +3,21 @@
 - Повторение
 - Метальная модель, модель представления, модель реализации
   - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_2.%20Human%20centered%20design.pdf
-  - глава 2 из [2]
+  - глава 2 из [[2](https://github.com/ivtipm/HCI/edit/master/2022/readme.md#%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0)]
 - UI
   - https://github.com/ivtipm/HCI/blob/master/HCI_lec_3.%20Interfaces.%20pdf
 - UX. Проектирование UX по уровням. Метод персонажей.
   - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_4.%20UX.pdf
-  - Главы 1-3 из [1]
-  - Глава 5 из [1]
+  - Главы 1-3 из [[1](https://github.com/ivtipm/HCI/edit/master/2022/readme.md#%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0)]
+  - Глава 5 из [[2](https://github.com/ivtipm/HCI/edit/master/2022/readme.md#%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0)]
   - Пример персонажа
 
 
 ### Домашнее задание
 1. Придумайте идею проекта. Согласуйте с преподавателем. Опишите персонажей
-  - Задание 2: https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf
+   - Задание 2: https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf
 2. Посмотрите остальные задания из файла
-3. Посморите первые 3 главы из книги [1]
+3. Посморите первые 3 главы из книги [[1](https://github.com/ivtipm/HCI/edit/master/2022/readme.md#%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0)]
 
 
 ### Литература
