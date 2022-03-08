@@ -11,6 +11,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ComCtrls,
+  Math,
   Menus, ExtCtrls,
   logic; // подключение модуля с бизнес-логикой
 
@@ -20,7 +21,7 @@ type
 
   // Класс TMainForm описывает окно программы
   // Класс - составлной тип данных, определяемый программистом;
-  // может содержать переменные (поля) и процедцры\функции (методы)
+  // может содержать переменные (поля) и процедуры\функции (методы)
 
   TMainForm = class(TForm)
     // поля класса TMainForm:
@@ -76,7 +77,7 @@ type
   end;
 
 var
-  // Переменная - главно окно программы
+  // Переменная - главное окно программы
   MainForm: TMainForm;
 
   // основные данные программы
@@ -123,7 +124,7 @@ begin
 
     Edit_a.Color:= TColor( error_color );
 
-    // Так дедлать не нужно:
+    // Так делать не нужно:
     // ShowMessage('Неправильно введён параметр a');
 
     // так лучше:
@@ -219,7 +220,8 @@ begin
          Y:=calc_population(a, tau, t);
 
          // запись результата на форму
-         Memo_report.Append(floattostr( a ) + '*exp(' + floattostr( t ) + ' / ' + floattostr( tau ) + ' ) = ' + floattostr(Y) );
+         Memo_report.Append(floattostr( a ) + '*exp(' + floattostr( t ) + ' / ' + floattostr( tau ) + ' ) = ' +
+                                        floattostr( RoundTo(Y, -2) ) );
        end;
 end;
 
