@@ -11,9 +11,10 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ComCtrls,
-  Math,
+  Math,                     // модуль с математическими функциями и константами
   Menus, ExtCtrls,
-  logic; // подключение модуля с бизнес-логикой
+  LCLType,                  // Модуль с константами для MessageBox
+  logic;                    // подключение модуля с бизнес-логикой
 
 type
 
@@ -167,7 +168,11 @@ end;
 // показать информацию о программе
 procedure TMainForm.MenuItem_helpClick(Sender: TObject);
 begin
-     ShowMessage('Программа вычисляет размер популяции по формуле Y = a * exp (t / tau ).   Автор: ... ');
+     Application.MessageBox('Программа вычисляет размер популяции по формуле Y = a * exp (t / tau ).  Автор: ... ',    // содержимое окна
+                            'О Программе',                                                                              // заголовок окна
+                            MB_OK);                                           // какие кнопки показывать
+
+     //ShowMessage('Программа вычисляет размер популяции по формуле Y = a * exp (t / tau ).   Автор: ... ');
 end;
 
 

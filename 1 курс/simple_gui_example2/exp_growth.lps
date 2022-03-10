@@ -8,7 +8,7 @@
         <Filename Value="exp_growth.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="10" Y="10"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,8 +19,9 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="8" Y="14"/>
-        <UsageCount Value="22"/>
+        <TopLine Value="162"/>
+        <CursorPos X="100" Y="177"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -30,7 +31,7 @@
         <EditorIndex Value="2"/>
         <TopLine Value="7"/>
         <CursorPos X="48" Y="29"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -42,10 +43,9 @@
         <EditorIndex Value="-1"/>
         <CursorPos X="18" Y="11"/>
         <UsageCount Value="20"/>
-        <LoadedDesigner Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="19" HistoryIndex="18">
+    <JumpHistory Count="20" HistoryIndex="19">
       <Position1>
         <Filename Value="logic.pas"/>
         <Caret Line="13" Column="37"/>
@@ -122,6 +122,10 @@
         <Filename Value="mainwindow.pas"/>
         <Caret Line="223" Column="66" TopLine="194"/>
       </Position19>
+      <Position20>
+        <Filename Value="mainwindow.pas"/>
+        <Caret Line="170" Column="58" TopLine="152"/>
+      </Position20>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

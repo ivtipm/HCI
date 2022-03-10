@@ -1,16 +1,20 @@
 object MainForm: TMainForm
-  Left = 710
+  Left = 1050
   Height = 775
-  Top = 218
+  Top = 266
   Width = 475
   Caption = 'Экспоненциальный рост'
   ClientHeight = 750
   ClientWidth = 475
+  Color = clWhite
   Constraints.MaxHeight = 775
   Constraints.MaxWidth = 475
   Constraints.MinHeight = 775
   Constraints.MinWidth = 475
   DesignTimePPI = 120
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
   Menu = MainMenu
   OnCreate = FormCreate
   LCLVersion = '2.2.0.4'
@@ -90,7 +94,12 @@ object MainForm: TMainForm
     BorderSpacing.Left = 12
     BorderSpacing.Top = 25
     Caption = 'Считать'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
     OnClick = Button_calcClick
+    ParentFont = False
     TabOrder = 3
   end
   object Label_res: TLabel
