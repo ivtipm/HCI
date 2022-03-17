@@ -236,7 +236,8 @@ RoundTo( 3/7, -2 )
 
 **Дополнительно**
 - превратить окна Lazarus в панели (однооконный режим) - https://devlaz.ru/lazarus-%D0%B2-%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC-%D0%BE%D0%BA%D0%BD%D0%B5/
-- Не открывать проект при запуске: Tools > Options... > Enviroment | снять галочку "Open last project..."
+- Не открывать проект при запуске: Tools > Options... > Enviroment: снять галочку "Open last project..."
+- Использовать приятнуб глазу подсветку синтаксиса: Tools > Options... > Editor - Display - Colors: в выпадающем списке вверху выбрать Delphi вместо Default
 
 
 ### Домашнее задание
