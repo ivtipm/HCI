@@ -30,7 +30,9 @@
 - Повторение; Опрос
 - Юзабилити. Эффективность и понятность интерфейса.
 - UseCase диаграмма
-   - - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_4.%20UX.pdf
+   - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_4.%20UX.pdf
+- Классицикация интерфейсов
+   - https://github.com/ivtipm/HCI/blob/master/HCI_lec_3.%20Interfaces.%20pdf?raw=true
 - Информационная архитектура
 
 
