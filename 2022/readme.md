@@ -1,3 +1,12 @@
+# Лекция 6
+Апрель 29
+- Повторение.
+- Типографика. 
+- https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_6.%20Typography.pdf
+- https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.7
+
+
+
 # Лекция 5
 Апрель 15
 - Повторение. 
