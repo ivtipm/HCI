@@ -5,7 +5,10 @@
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_6.%20Typography.pdf
 - https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.7
 
-
+### Домашнее задание
+- Конспект: Human interface guidelines (руководство по дизайну интерфеса).  
+   - выберете рекомендации из одного руководства.
+   - 2-4 страницы
 
 # Лекция 5
 Апрель 15
