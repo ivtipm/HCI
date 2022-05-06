@@ -294,7 +294,7 @@ RoundTo( 3/7, -2 )
 18 февраля
 - Повторение: дизайн, принципы гештальта;
 - Введение. Проблемы и задачи ЧМВ.
-- Слайды: https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_1.%20Human.pdf
+- Слайды: https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_1.pdf
 
 ### Домашнее задание
 - Изучите слайды полностью
