@@ -40,6 +40,9 @@ HCI_lec_6_UI_analysis.pdf
   * GOMS
   * информационная эффективность
 
+### Дополнительно
+- http://web.cse.ohio-state.edu/~machiraju.1/teaching/CSE5544/ClassLectures/PDF/Lecture-5-1.pdf -- Data Visualization
+
 
 ## Первый курс. Визуальное программирование
 
