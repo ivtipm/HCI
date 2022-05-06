@@ -40,6 +40,15 @@ HCI_lec_6_UI_analysis.pdf
   * GOMS
   * информационная эффективность
 
+### Дополнительно
+- Визуализация данных
+  - http://web.cse.ohio-state.edu/~machiraju.1/teaching/CSE5544/ClassLectures/PDF/Lecture-5-1.pdf -- CSE 5544: Introduction to Data Visualization, Raghu Machiraju
+  - Книги Edward R. Tufte
+    - The Visual Display of Quantitative Information, Graphics Press, 2001. 200 p.
+    - Envisioning Information, Graphics Press, 1990. 126 p.
+    - Visual Explanations: Images and Quantities, Evidence and Narrative Graphics Press, 1997, 156 p.
+    - Beautiful Evidence, Graphics Press, 2006, 213 p.
+
 
 ## Первый курс. Визуальное программирование
 
