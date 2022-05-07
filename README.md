@@ -23,7 +23,7 @@
    * История дизайна Windows
 
 [HCI_lec_2. Human centered design.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_2.%20Human%20centered%20design.pdf)
-   * приниципы человеко-ориентированного дизайна (Дональд Норман)
+   * принципы человеко-ориентированного дизайна (Дональд Норман)
    * Принципы дизайна Дитера Рамса
    * ментальная модель, модель реализации, модель представления [StudBook.pdf#section.1.5](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#section.1.5)
 
@@ -41,7 +41,7 @@ HCI_sem_4.pdf \
 [HCI_lec_3.pdf#chapter.2](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.2)
 
 
-### 5. Коротко о мобильных интерфйесах
+### 5. Коротко о мобильных интерфейсах
 HCI_lec_3.pdf
 
 ### 6. Типографика
@@ -50,8 +50,7 @@ HCI_lec_3.pdf
 
 **Литература**
 - Ильяхов, М. Пиши, сокращай: Как создавать сильные тексты / М. Ильяхов, Л. Сарычева. — :Альпина Паблишер, 2021. — 440 c
-- Горбунов А. С. Типографика и вёрстка. — М.: Изд-во Бюро Гор-
-бунова, 2015. - 175 c.
+- Горбунов А. С. Типографика и вёрстка. — М.: Изд-во Бюро Горбунова, 2015. - 175 c.
 
 ### 7. Количественная оценка интерфейса
 HCI_lec_6_UI_analysis.pdf
