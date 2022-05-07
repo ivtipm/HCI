@@ -36,14 +36,22 @@ HCI_sem_4.pdf \
    * юзабилити
    * тестирование юзабилити
    
-### 4. Обзор и классификация интенфельсов пользователя
-HCI_lec_3.pdf
+   
+### 4. Обзор и классификация интерфейсов пользователя
+[HCI_lec_3.pdf#chapter.2](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.2)
+
 
 ### 5. Коротко о мобильных интерфйесах
 HCI_lec_3.pdf
 
 ### 6. Типографика
-HCI_lec_5_typography.pdf
+[HCI_lec_6.Typography.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_6.%20Typography.pdf) \
+[StudBook.pdf#chapter.7](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.7) \
+
+**Литература**
+- Ильяхов, М. Пиши, сокращай: Как создавать сильные тексты / М. Ильяхов, Л. Сарычева. — :Альпина Паблишер, 2021. — 440 c
+- Горбунов А. С. Типографика и вёрстка. — М.: Изд-во Бюро Гор-
+бунова, 2015. - 175 c.
 
 ### 7. Количественная оценка интерфейса
 HCI_lec_6_UI_analysis.pdf
