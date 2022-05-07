@@ -8,18 +8,30 @@
 ## Примерная структура курса
 
 ### 1. Введение. Человек.
-HCI_lec_1.pdf
+[HCI_lec_1.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_1.pdf) \
+[StudBook.pdf#chapter.1](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.1)
+
+
 
 ### 2. Дизайн
-  HCI_sem_1.pdf
-  HCI_lec_2.pdf
-   * приниципы человеко-ориентированного дизайна
-   * ментальная модель
+[HCI_sem. Design, color, gestalt.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_sem.%20Design%2C%20color%2C%20gestalt.pdf) \
+[StudBook.pdf#chapter.3](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.3)
+   * дизайн
+   * Представление, Восприятие, Ощущение
+   * Гештальт психология
+   * Геометрия vs восприятие
+   * История дизайна Windows
+
+[HCI_lec_2. Human centered design.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_2.%20Human%20centered%20design.pdf)
+   * приниципы человеко-ориентированного дизайна (Дональд Норман)
+   * Принципы дизайна Дитера Рамса
+   * ментальная модель, модель реализации, модель представления [StudBook.pdf#section.1.5](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#section.1.5)
 
 
 ### 3. User Expirience (UX)
-HCI_lec_4.pdf
-HCI_sem_4.pdf
+HCI_lec_4.pdf \
+HCI_sem_4.pdf \
+[StudBook.pdf#chapter.4](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.4)
    * слои ИХ
    * юзабилити
    * тестирование юзабилити
