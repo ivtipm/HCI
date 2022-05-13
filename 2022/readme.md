@@ -8,11 +8,17 @@
 
 # Лекция 7. Анализ интерфейсов
 май 13
-- Анализ интерфейсов
+- Гипотезы. Юзибилити-тестирование. A/B тестирование.
+- Законы Фиттса и Хика.
+- GOMS
+- Информационная эффективность. Data-ink ratio. 
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_7.%20UI%20analysis.pdf
+- https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#section.5.2
+- https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.6
+
 
 ### Домашнее задание
-- Изучите все слайды лекции, главу о анализе интерфейса в учебном пособии
+- Изучите все слайды лекции, разделы об анализе интерфейса в учебном пособии
 
 
 # Лекция 6. Типографика
