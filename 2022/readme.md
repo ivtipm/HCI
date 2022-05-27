@@ -12,7 +12,7 @@
 - Гипотезы. Юзабилити-тестирование. A/B тестирование.
 - Законы Фиттса и Хика.
 - GOMS
-- Информационная эффективность. Data-ink ratio. 
+- Информационная эффективность. Data-ink ratio. [https://infogra.ru/infographics/diagrammy-i-grafiki-osmyslyaya-tafti]
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_7.%20UI%20analysis.pdf
 - https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#section.5.2
 - https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.6
