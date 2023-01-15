@@ -48,11 +48,6 @@ HCI_lec_3.pdf
 [HCI_lec_6.Typography.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_6.%20Typography.pdf) \
 [StudBook.pdf#chapter.7](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.7) 
 
-**Ссылки**
-- Ильяхов, М. Пиши, сокращай: Как создавать сильные тексты / М. Ильяхов, Л. Сарычева. — :Альпина Паблишер, 2021. — 440 c
-- Горбунов А. С. Типографика и вёрстка. — М.: Изд-во Бюро Горбунова, 2015. - 175 c.
-- https://orfogrammka.ru/
-- https://glvrd.ru/
 
 ### 7. Количественная оценка интерфейса
 HCI_lec_6_UI_analysis.pdf \
@@ -70,6 +65,13 @@ HCI_lec_6_UI_analysis.pdf \
     - Envisioning Information, Graphics Press, 1990. 126 p.
     - Visual Explanations: Images and Quantities, Evidence and Narrative Graphics Press, 1997, 156 p.
     - Beautiful Evidence, Graphics Press, 2006, 213 p.
+
+# Литература и ссылки
+0. Учебное пособие "Введение в проектирование пользовательских интерфейсов" [StudBook.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf)
+1. Ильяхов, М. Пиши, сокращай: Как создавать сильные тексты / М. Ильяхов, Л. Сарычева. — :Альпина Паблишер, 2021. — 440 c
+1. Горбунов А. С. Типографика и вёрстка. — М.: Изд-во Бюро Горбунова, 2015. - 175 c.
+1. https://orfogrammka.ru/
+1. https://glvrd.ru/
 
 
 ## Первый курс. Визуальное программирование
