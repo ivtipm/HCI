@@ -67,7 +67,7 @@ HCI_lec_6_UI_analysis.pdf \
     - Beautiful Evidence, Graphics Press, 2006, 213 p.
 
 # Литература и ссылки
-0. Учебное пособие "Введение в проектирование пользовательских интерфейсов" [StudBook.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf)
+0. Учебное пособие Введение в проектирование пользовательских интерфейсов [StudBook.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf)
 1. Ильяхов, М. Пиши, сокращай: Как создавать сильные тексты / М. Ильяхов, Л. Сарычева. — :Альпина Паблишер, 2021. — 440 c
 1. Горбунов А. С. Типографика и вёрстка. — М.: Изд-во Бюро Горбунова, 2015. - 175 c.
 1. https://orfogrammka.ru/
