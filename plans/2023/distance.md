@@ -14,6 +14,10 @@
 
 **Ссылки**
 - https://app.diagrams.net -- для создания диаграмм; можно экспортировать диаграмму в png, векторная копия диаграммы будет включена в файл.
+Фигма:
+  - https://www.figma.com/
+  - https://help.figma.com/hc/en-us/articles/360039818254-Create-overlays-in-your-prototypes -- создание диалоговых окон
+
 
 # День 2.
 22 января
@@ -27,7 +31,7 @@ HCI_lec_5. Usability.pdf, HCI_lec_7. UI analysis.pdf,
 3. уточнение работ 2-3 
 
 **Ссылки**
-- https://www.figma.com/
+
 
 
 
