@@ -26,9 +26,9 @@
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_5.%20Usability.pdf
 HCI_lec_5. Usability.pdf, HCI_lec_7. UI analysis.pdf,
 
-3. Защита работ
-2. Работа над заданиями 4-5. Информационная архитектура, Макет UI
-3. уточнение работ 2-3 
+1. Защита работ
+1. Работа над заданиями 4-5. Информационная архитектура, Макет UI
+1. Уточнение работ 2-5 
 
 **Ссылки**
 
