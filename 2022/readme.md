@@ -405,3 +405,4 @@ https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97
   - пожалуйста не рассматривайте норвежский интернет-магазин
 - Скачайте рекомендованную литературу
 - Изучите ссылки из слайдов
+- Прочитайте первый разлел из учебного пособия: https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf#chapter.1
