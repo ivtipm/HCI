@@ -1,3 +1,6 @@
+# Занятие 2
+- Пример программы на Lazarus: https://github.com/ivtipm/HCI/tree/master/2022/lazarus_example_1
+
 # Лекция 1
 - Слайды: HCI_lec_1.pdf
 
