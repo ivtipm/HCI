@@ -2,7 +2,12 @@
 - `StrToFloat`, `StrToInt`
 - `TryStrToFLoat`
 - `RoundTo(Y, -2)` — округление вещественного числа до двух знаков после запятой
-- `FloatToStrF(number, ffFixed, 8, 4)` — преобразование числа number в строку с форматом ffFixed (вещественное число, без экпоненциальной записи), 4 знака после запятой, 8 позиций символов на всё число.
+- `FloatToStrF(number, ffFixed, 8, 4)` — преобразование числа number в строку с форматом ffFixed (вещественное число, без экпоненциальной записи), 4 знака после запятой, 8 позиций символов на всё число.  [ [doc](https://www.freepascal.org/docs-html/rtl/sysutils/floattostrf.html) ]
+  - `FloatToStrF( pi, ffFixed,    5, 2)            // 3.14`
+  - `FloatToStrF( pi, ffExponent, 5, 2)            // 3.1416E+00`
+  - `FloatToStrF( pi, ffGeneral,  5, 2)            // 3.1416   (наиболее короткий вариант из ffFixed и ffFixed)`
+  - `FloatToStrF( pi, ffcurrency, 5, 2)            // 3.14$    (используется валюта по умолчанию в ОС)`
+  - `FloatToStrF( pi*1000, ffnumber,   5, 2)   // 3,141.59 (ffFixed, но добавлен разделитель для тысяч)`
 
 # Внешний вид элементов интерфейса
 
