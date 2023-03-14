@@ -1,17 +1,16 @@
 object MainForm: TMainForm
   Left = 1050
-  Height = 775
+  Height = 620
   Top = 266
-  Width = 475
+  Width = 380
   Caption = 'Экспоненциальный рост'
-  ClientHeight = 750
-  ClientWidth = 475
+  ClientHeight = 593
+  ClientWidth = 380
   Color = clWhite
-  Constraints.MaxHeight = 775
-  Constraints.MaxWidth = 475
-  Constraints.MinHeight = 775
-  Constraints.MinWidth = 475
-  DesignTimePPI = 120
+  Constraints.MaxHeight = 620
+  Constraints.MaxWidth = 380
+  Constraints.MinHeight = 620
+  Constraints.MinWidth = 380
   Font.CharSet = RUSSIAN_CHARSET
   Font.Pitch = fpVariable
   Font.Quality = fqDraft
@@ -21,12 +20,12 @@ object MainForm: TMainForm
   object Label_a: TLabel
     AnchorSideLeft.Control = Owner
     AnchorSideTop.Control = Owner
-    Left = 25
-    Height = 20
-    Top = 25
-    Width = 187
-    BorderSpacing.Left = 25
-    BorderSpacing.Top = 25
+    Left = 20
+    Height = 19
+    Top = 20
+    Width = 198
+    BorderSpacing.Left = 20
+    BorderSpacing.Top = 20
     Caption = 'нач. размер популяции (а)'
   end
   object Label_tau: TLabel
@@ -34,21 +33,21 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = Edit_tau
     Left = 19
-    Height = 20
-    Top = 71
-    Width = 186
+    Height = 19
+    Top = 76
+    Width = 194
     Anchors = [akTop, akRight]
-    BorderSpacing.Right = 19
+    BorderSpacing.Right = 15
     Caption = 'пар-р скорости роста (tau)'
   end
   object Edit_a: TEdit
     AnchorSideLeft.Control = Label_a
     AnchorSideLeft.Side = asrBottom
-    Left = 224
-    Height = 28
-    Top = 20
-    Width = 60
-    BorderSpacing.Left = 12
+    Left = 228
+    Height = 36
+    Top = 16
+    Width = 48
+    BorderSpacing.Left = 10
     TabOrder = 0
     Text = '1'
   end
@@ -56,11 +55,11 @@ object MainForm: TMainForm
     AnchorSideLeft.Control = Edit_a
     AnchorSideTop.Control = Edit_a
     AnchorSideTop.Side = asrBottom
-    Left = 224
-    Height = 28
+    Left = 228
+    Height = 36
     Top = 67
-    Width = 59
-    BorderSpacing.Top = 19
+    Width = 47
+    BorderSpacing.Top = 15
     TabOrder = 1
     Text = '1'
   end
@@ -72,30 +71,30 @@ object MainForm: TMainForm
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
-    Left = 12
-    Height = 482
-    Top = 256
-    Width = 451
+    Left = 10
+    Height = 335
+    Top = 248
+    Width = 360
     Anchors = [akTop, akLeft, akRight, akBottom]
-    BorderSpacing.Left = 12
-    BorderSpacing.Top = 6
-    BorderSpacing.Right = 12
-    BorderSpacing.Bottom = 12
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
     TabOrder = 2
   end
   object Button_calc: TButton
     AnchorSideLeft.Control = Owner
     AnchorSideTop.Control = Edit_t
     AnchorSideTop.Side = asrBottom
-    Left = 12
-    Height = 44
-    Top = 167
-    Width = 154
-    BorderSpacing.Left = 12
-    BorderSpacing.Top = 25
+    Left = 10
+    Height = 35
+    Top = 174
+    Width = 123
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 20
     Caption = 'Считать'
     Font.CharSet = RUSSIAN_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     OnClick = Button_calcClick
@@ -106,24 +105,24 @@ object MainForm: TMainForm
     AnchorSideLeft.Control = Owner
     AnchorSideTop.Control = Button_calc
     AnchorSideTop.Side = asrBottom
-    Left = 12
-    Height = 20
-    Top = 230
-    Width = 66
-    BorderSpacing.Left = 12
-    BorderSpacing.Top = 19
+    Left = 10
+    Height = 19
+    Top = 224
+    Width = 75
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 15
     Caption = 'Результат'
   end
   object Label_time: TLabel
     AnchorSideTop.Control = Edit_t
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = Edit_t
-    Left = 142
-    Height = 20
-    Top = 118
-    Width = 63
+    Left = 145
+    Height = 19
+    Top = 127
+    Width = 68
     Anchors = [akTop, akRight]
-    BorderSpacing.Right = 19
+    BorderSpacing.Right = 15
     Caption = 'время (t)'
   end
   object Edit_t: TEdit
@@ -132,20 +131,20 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrBottom
     AnchorSideRight.Control = Edit_tau
     AnchorSideRight.Side = asrBottom
-    Left = 224
-    Height = 28
-    Top = 114
-    Width = 59
+    Left = 228
+    Height = 36
+    Top = 118
+    Width = 47
     Anchors = [akTop, akLeft, akRight]
-    BorderSpacing.Top = 19
+    BorderSpacing.Top = 15
     TabOrder = 4
     Text = '1'
   end
   object Label1: TLabel
-    Left = 353
-    Height = 20
-    Top = 373
-    Width = 44
+    Left = 282
+    Height = 19
+    Top = 298
+    Width = 47
     Caption = 'Label1'
   end
   object Image_plot: TImage
@@ -153,13 +152,13 @@ object MainForm: TMainForm
     AnchorSideLeft.Side = asrBottom
     AnchorSideTop.Control = Owner
     AnchorSideRight.Control = Owner
-    Left = 299
-    Height = 160
-    Top = 12
-    Width = 157
-    BorderSpacing.Left = 15
-    BorderSpacing.Top = 12
-    BorderSpacing.Right = 12
+    Left = 288
+    Height = 128
+    Top = 10
+    Width = 126
+    BorderSpacing.Left = 12
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 10
     Picture.Data = {
       1754506F727461626C654E6574776F726B477261706869638E34000089504E47
       0D0A1A0A0000000D49484452000000DB000001150802000000E6740767000000
@@ -590,10 +589,10 @@ object MainForm: TMainForm
     AnchorSideLeft.Control = Edit_a
     AnchorSideBottom.Control = Button_calc
     AnchorSideBottom.Side = asrBottom
-    Left = 224
-    Height = 35
-    Top = 176
-    Width = 222
+    Left = 228
+    Height = 68
+    Top = 141
+    Width = 178
     Anchors = [akTop, akLeft, akBottom]
     Picture.Data = {
       1754506F727461626C654E6574776F726B477261706869630812000089504E47
@@ -746,8 +745,8 @@ object MainForm: TMainForm
     Proportional = True
   end
   object MainMenu: TMainMenu
-    Left = 140
-    Top = 290
+    Left = 112
+    Top = 232
     object MenuItem_file: TMenuItem
       Caption = 'Файл'
       object MenuItem_open: TMenuItem
@@ -773,11 +772,11 @@ object MainForm: TMainForm
     end
   end
   object OpenDialog: TOpenDialog
-    Left = 140
-    Top = 390
+    Left = 112
+    Top = 312
   end
   object SaveDialog: TSaveDialog
-    Left = 140
-    Top = 490
+    Left = 112
+    Top = 392
   end
 end

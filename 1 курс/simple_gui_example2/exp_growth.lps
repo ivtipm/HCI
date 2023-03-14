@@ -8,7 +8,7 @@
         <Filename Value="exp_growth.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="10" Y="10"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,9 +19,9 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="162"/>
-        <CursorPos X="100" Y="177"/>
-        <UsageCount Value="23"/>
+        <TopLine Value="105"/>
+        <CursorPos X="33" Y="186"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -29,9 +29,8 @@
         <Filename Value="logic.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="7"/>
         <CursorPos X="48" Y="29"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -45,7 +44,7 @@
         <UsageCount Value="20"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="20" HistoryIndex="19">
+    <JumpHistory Count="25" HistoryIndex="24">
       <Position1>
         <Filename Value="logic.pas"/>
         <Caret Line="13" Column="37"/>
@@ -126,6 +125,26 @@
         <Filename Value="mainwindow.pas"/>
         <Caret Line="170" Column="58" TopLine="152"/>
       </Position20>
+      <Position21>
+        <Filename Value="mainwindow.pas"/>
+        <Caret Line="114" Column="80" TopLine="120"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mainwindow.pas"/>
+        <Caret Line="231" Column="61" TopLine="203"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mainwindow.pas"/>
+        <Caret Line="234" Column="53" TopLine="210"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mainwindow.pas"/>
+        <Caret Line="26"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mainwindow.pas"/>
+        <Caret Line="235" Column="63" TopLine="210"/>
+      </Position25>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
