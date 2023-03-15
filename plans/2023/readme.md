@@ -14,6 +14,17 @@
 См. комментарии todo в примере.
 
 
+**Дополнительно**
+Выделяйте ячейку с найденым значением
+```pascal
+     StringGrid.Row:= 2;
+     StringGrid.Col:= 2;
+     StringGrid.SetFocus;
+
+     StringGrid.SelectedColor:=clBlue;
+     StringGrid.Options := StringGrid.Options + [goDrawFocusSelected];
+```
+
 
 # Занятие 4. Продолжение. Горячие клавиши
 март 1
