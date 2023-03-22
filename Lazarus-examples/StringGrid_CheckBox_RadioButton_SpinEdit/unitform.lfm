@@ -87,8 +87,8 @@ object FormMain: TFormMain
     Left = 288
     Height = 42
     Top = 144
-    Width = 226
-    Caption = 'пересоздавать матрицу'#10'при ищменении размеров'
+    Width = 221
+    Caption = 'пересоздавать матрицу'#10'при изменении размеров'
     TabOrder = 4
   end
   object Label_help2: TLabel
