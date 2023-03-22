@@ -104,7 +104,9 @@ begin
      // вывод матрицы в таблицу
      for i:=1 to n do
          for j:=1 to m do
-             StringGrid.Cells[i-1,j-1] := FLoatToStr( matr[i,j] );
+             // в таблице StringGrid индексация: столбец, строка
+             // в матрице: строка, столбец
+             StringGrid.Cells[j-1,i-1] := FLoatToStr( matr[i,j] );
 end;
 
 
