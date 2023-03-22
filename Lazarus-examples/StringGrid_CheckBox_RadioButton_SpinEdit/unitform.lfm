@@ -1,0 +1,133 @@
+object FormMain: TFormMain
+  Left = 669
+  Height = 520
+  Top = 555
+  Width = 722
+  Caption = 'Пример работы с TStringGrid'
+  ClientHeight = 493
+  ClientWidth = 722
+  Menu = MainMenu
+  LCLVersion = '2.2.0.4'
+  object GroupBox_FillType: TGroupBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 500
+    Height = 113
+    Top = 20
+    Width = 186
+    BorderSpacing.Left = 500
+    BorderSpacing.Top = 20
+    Caption = 'Заполнять матрицу'
+    ClientHeight = 93
+    ClientWidth = 184
+    TabOrder = 3
+    object RadioButton_int: TRadioButton
+      Left = 24
+      Height = 23
+      Top = 20
+      Width = 126
+      Caption = 'Целые числа'
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+    end
+    object RadioButton_real: TRadioButton
+      Left = 20
+      Height = 23
+      Top = 50
+      Width = 144
+      Caption = 'Веществ. числа'
+      TabOrder = 1
+    end
+  end
+  object Button_GenMatr: TButton
+    Left = 288
+    Height = 44
+    Top = 16
+    Width = 152
+    Caption = 'Заполнить матр.'
+    OnClick = Button_GenMatrClick
+    TabOrder = 0
+  end
+  object StringGrid: TStringGrid
+    Left = 24
+    Height = 187
+    Top = 16
+    Width = 244
+    ColCount = 4
+    DefaultColWidth = 30
+    FixedCols = 0
+    FixedRows = 0
+    TabOrder = 1
+  end
+  object Label_help1: TLabel
+    Left = 24
+    Height = 38
+    Top = 224
+    Width = 365
+    Caption = 'Космпонент TStringGrid (со вкладки Additional)'#10'Правый клики на компоненте - Редактирвоание'
+  end
+  object SpinEdit_n: TSpinEdit
+    Left = 318
+    Height = 36
+    Top = 80
+    Width = 122
+    OnChange = SpinEdit_nChange
+    TabOrder = 2
+    Value = 5
+  end
+  object Label1: TLabel
+    Left = 296
+    Height = 19
+    Top = 86
+    Width = 9
+    Caption = 'n'
+  end
+  object CheckBox_regen: TCheckBox
+    Left = 288
+    Height = 42
+    Top = 144
+    Width = 226
+    Caption = 'пересоздавать матрицу'#10'при ищменении размеров'
+    TabOrder = 4
+  end
+  object Label_help2: TLabel
+    Left = 24
+    Height = 133
+    Top = 288
+    Width = 434
+    Caption = 'ToDo:'#10'- Аккуратно, по сетке расположить элементы интерфейса'#10'- Привязать StringGrid к границам окна'#10'- Задать TabOrder'#10'- Добавить Memo'#10'- Добавить картинку, поясняющую условие'#10'- Об авторе и программе'
+  end
+  object OpenDialog: TOpenDialog
+    Left = 528
+    Top = 344
+  end
+  object SaveDialog: TSaveDialog
+    Left = 623
+    Top = 344
+  end
+  object MainMenu: TMainMenu
+    Left = 528
+    Top = 272
+    object MenuItem_File: TMenuItem
+      Caption = 'Файл'
+      object MenuItem_Open: TMenuItem
+        Caption = 'Открыть...'
+        OnClick = MenuItem_OpenClick
+      end
+      object MenuItem_Save: TMenuItem
+        Caption = 'Сохранить...'
+        OnClick = MenuItem_SaveClick
+      end
+    end
+    object MenuItem_About: TMenuItem
+      Caption = 'О программе'
+      object MenuItem_Author: TMenuItem
+        Caption = 'Об авторе'
+      end
+      object MenuItem_AboutTask: TMenuItem
+        Caption = 'О задании'
+      end
+    end
+  end
+end
