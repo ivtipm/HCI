@@ -1,6 +1,7 @@
 # Человеко-машинное взаимодействие (Human-computer interaction)
+ [курс 2024. Заочный](plans/2024/distance.md), 
  [курс 2023](plans/2023/readme.md), 
- [курс 2023. Заочн](plans/2023/distance.md), 
+ [курс 2023. Заочный](plans/2023/distance.md), 
  
  
  [курс 2022](2022/readme.md), 
