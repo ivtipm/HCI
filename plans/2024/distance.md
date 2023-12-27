@@ -21,12 +21,16 @@
   - https://help.figma.com/hc/en-us/articles/360039818254-Create-overlays-in-your-prototypes -- создание диалоговых окон
 
 
+Запись занятия см. в дискорде
+
 # День 2.
 28 января
-
 Слайды:
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_5.%20Usability.pdf
 HCI_lec_5. Usability.pdf, HCI_lec_7. UI analysis.pdf,
+
+
+Запись занятия см. в дискорде
 
 1. Выбор и согласование темы
 1. Работа над заданиями
