@@ -1,18 +1,24 @@
 # День 1.
 27 декабря, онлайн
 
+1. Введение
+1. Важные понятия психики человека.
+2. Понятие пользовательского интерфейса
+3. UX. Многоуровневый подход к проектированию UX
+  1. Метод персонажей
+  1. Диаграмма вариантов использования (Use case)
+  1. Информационная архитектура 
+
 Учебное пособие: [StudBook.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf)
 
 Слайды:
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_1.pdf
-- https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_sem.%20Design%2C%20color%2C%20gestalt.pdf
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_4.%20UX.pdf
 
-Пример фрагмента диаграммы вариантов использования
-
-![](UseCase_Example.drawio.png )
+Пример фрагмента диаграммы вариантов использования: ![](UseCase_Example.drawio.png )
 Диаграмму можно открыть в draw.io если загрузть файл.
 
+Запись занятия см. в чате группы.
 
 **Ссылки**
 - https://app.diagrams.net -- для создания диаграмм; можно экспортировать диаграмму в png, векторная копия диаграммы будет включена в файл.
@@ -25,12 +31,17 @@
 
 # День 2.
 28 января
+
+1. Повторение.
+2. Дизайн. Создание макета UI в Figma
+3. Юзабилити. Тестирование.
+
 Слайды:
 - https://raw.githubusercontent.com/ivtipm/HCI/master/HCI_lec_5.%20Usability.pdf
 HCI_lec_5. Usability.pdf, HCI_lec_7. UI analysis.pdf,
 
 
-Запись занятия см. в дискорде
+
 
 1. Выбор и согласование темы
 1. Работа над заданиями
