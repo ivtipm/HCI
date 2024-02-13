@@ -1,5 +1,5 @@
 # Человеко-машинное взаимодействие (Human-computer interaction)
- [курс 2024. Заочный](plans/2024/plan.md)
+ [курс 2024](plans/2024/plan.md)
 
  [курс 2024. Заочный](plans/2024/distance.md)
 
