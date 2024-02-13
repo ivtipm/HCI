@@ -24,3 +24,27 @@
 ### Материалы
 - Слайды в этом репозитории
 - [Учебное пособие](../../StudBook.pdf)
+
+
+# Практика 1. Доклады. Основы Lazarus
+
+**Настройка Lazarus**
+- превратить окна Lazarus в панели (однооконный режим) - https://devlaz.ru/lazarus-%D0%B2-%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC-%D0%BE%D0%BA%D0%BD%D0%B5/
+- Не открывать проект при запуске: Tools > Options... > Enviroment: снять галочку "Open last project..."
+- Использовать приятную глазу подсветку синтаксиса: Tools > Options... > Editor - Display - Colors: в выпадающем списке вверху выбрать Delphi вместо Default
+- Запретить ставить курсор дальше конца строки: Tools > Options... > Editor - General: в разделе Caret (Text Cursor) убрать галочку для Allow caret to move past end of line
+- Другие настройки: http://newpascal.org/docked.html
+
+### Задание
+
+[Пример](2022/lazarus_example_1)
+
+### Ссылки
+- http://www.freepascal.ru/
+- http://intuit.valrkl.ru/course-1265/index.html - Программирование на Lazarus
+- http://www.freepascal.ru/download/pdf/osnovy_programmirovanija_v_srede_lazarus.pdf - Основы программирования в среде Lazarus
+- https://www.youtube.com/watch?v=VWHec3Fwuck - Уроки программирования в Lazarus. Урок №1. Обзор среды программирования, типов проектов в Lazarus
+
+
+
+# Практика 2. Доклады.
