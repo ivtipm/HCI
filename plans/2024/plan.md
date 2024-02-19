@@ -31,7 +31,7 @@
 **Настройка Lazarus**
 - превратить окна Lazarus в панели (однооконный режим) - https://devlaz.ru/lazarus-%D0%B2-%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC-%D0%BE%D0%BA%D0%BD%D0%B5/
 - Не открывать проект при запуске: Tools > Options... > Enviroment: снять галочку "Open last project..."
-- Использовать приятную глазу подсветку синтаксиса: Tools > Options... > Editor - Display - Colors: в выпадающем списке вверху выбрать Delphi вместо Default
+- Использовать подсветку синтаксиса с гармоничными цветами: Tools > Options... > Editor - Display - Colors: в выпадающем списке вверху выбрать Delphi вместо Default
 - Запретить ставить курсор дальше конца строки: Tools > Options... > Editor - General: в разделе Caret (Text Cursor) убрать галочку для Allow caret to move past end of line
 - Другие настройки: http://newpascal.org/docked.html
 
@@ -40,6 +40,8 @@
 
 Пример с подробными комментариями: https://github.com/ivtipm/HCI/tree/master/1%20%D0%BA%D1%83%D1%80%D1%81/simple_gui_example2
 [Пример2](2022/lazarus_example_1)
+
+Настройте Lazarus как показано выше.
 
 Создайте программу на Lazarus с графическим интерфейсом пользователя
   - программа должна решать [задачу из вашего варианта](https://ivtipm.github.io/Programming/Files/spisocall.htm), из первого блока задач по программированию.
