@@ -1,4 +1,7 @@
 program exp_growth;
+// Автор: ...
+// Основной файл программы. Создаёю и показывает окно.
+
 
 {$mode objfpc}{$H+}
 
@@ -12,11 +15,12 @@ uses
 
 {$R *.res}
 
+
 begin
   RequireDerivedFormResource:=True;
   Application.Scaled:=True;
   Application.Initialize;
-  Application.CreateForm(TMainForm, MainForm);
-  Application.Run;
+  Application.CreateForm(TMainForm, MainForm);    // Создание окна
+  Application.Run;                                // Запуск главного цикла обработки сообщений
 end.
 
