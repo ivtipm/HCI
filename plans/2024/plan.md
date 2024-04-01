@@ -219,6 +219,7 @@ RoundTo( 3/7, -2 )
 - TStringGrid. 
 - Понятие UX. Проектирование продукта (UX). Метод персонажей.
 
+Cм. в дискорде запись занятия. 
 
 ### Задание 9. TStringGrid
 Создайте программу решающую задачу из сроки 48 [задачника](https://ivtipm.github.io/Programming/Files/spisocall.htm).
@@ -233,3 +234,18 @@ RoundTo( 3/7, -2 )
 ### Работа над проектом.
 Опишите 2-4 персонажей и 2-4 сценария использования: 
 https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf
+
+
+# Лекция 5. UseCase. Информационная архитектура.
+[StudBook.pdf](https://raw.githubusercontent.com/ivtipm/HCI/master/StudBook.pdf)
+ 4.2.4 Диаграмма прецедентов
+
+Пример фрагмента диаграммы вариантов использования: ![](../2023/UseCase_Example.drawio.png )
+Диаграмму можно открыть в draw.io если загрузть файл.
+
+
+**Ссылки**
+- https://app.diagrams.net -- для создания диаграмм; можно экспортировать диаграмму в png, векторная копия диаграммы будет включена в файл.
+Фигма:
+  - https://www.figma.com
+  - https://help.figma.com/hc/en-us/articles/360039818254-Create-overlays-in-your-prototypes -- создание диалоговых окон
