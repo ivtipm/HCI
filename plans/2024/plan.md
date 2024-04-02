@@ -246,7 +246,7 @@ https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97
 
 ### Работа над проектом (продолжение)
 Выполните задания 2 и 3.
-[task3.md](../../Project_tasks/project_tasks.md)\
+[project_tasks](../../Project_tasks/project_tasks.md)\
 Закончите их за три недели.
 
 **Ссылки**
