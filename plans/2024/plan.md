@@ -251,6 +251,11 @@ https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97
 [project_tasks](../../Project_tasks/project_tasks.md)\
 Закончите их за три недели.
 
+
+### Работа над проектом (продолжение)
+Выполните  [задание 4](../../Project_tasks/project_tasks.md)\.
+
+
 **Ссылки**
 - https://app.diagrams.net -- для создания диаграмм; можно экспортировать диаграмму в png, векторная копия диаграммы будет включена в файл.
 Фигма:
