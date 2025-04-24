@@ -142,7 +142,7 @@ RoundTo( 3/7, -2 )
 
 # Лекция 2. UI
 1. UI. Виды.
-1. MVC в Lazarus
+1. MVC в Lazarus. Принцип единственной ответственности.
 1. CLI в Lazarus
 
 
