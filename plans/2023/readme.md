@@ -1,3 +1,17 @@
+# Занятие 6. Продолжение
+- Добавьте сохранение и загрузку данных, оди или оба варианта:
+  - Сохранение\загрузка матрицы
+  - Сохранение\загрузка остальных данных формы: рамер матрицы, состояние CheckBox, RadioButton, SpinEdit
+Используйте диалоговые окна для выбора файла
+
+Пример: https://github.com/ivtipm/HCI/tree/master/Lazarus-examples/StringGrid_CheckBox_RadioButton_SpinEdit
+
+
+#### Ссылки: 
+- http://www.freepascal.ru/download/pdf/osnovy_programmirovanija_v_srede_lazarus.pdf
+
+
+
 # Занятие 5. Новая программа. Работа с таблицей.
 - Создайте программу решающую задачу 692. Если в вашем варианте нет такой задачи, то выберете пункт в задаче ближайший к вашему варианту.
 - Для вывода матрицы используйте компонент TStringGrid
@@ -21,8 +35,11 @@
      StringGrid.Col:= 2;
      StringGrid.SetFocus;
 
-     StringGrid.SelectedColor:=clBlue;
+     StringGrid.SelectedColor:=clBlue;        // цвет стоит поменять
      StringGrid.Options := StringGrid.Options + [goDrawFocusSelected];
+
+// Снять выделение с ячеек = задать настройки отображения по-умолчанию:
+StringGrid.Options := [goFixedVertLine,goFixedHorzLine,goVertLine,goHorzLine,goRangeSelect,goSmoothScroll];
 ```
 
 
