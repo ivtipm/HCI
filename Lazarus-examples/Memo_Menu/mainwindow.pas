@@ -1,4 +1,5 @@
 unit mainwindow;
+// Автор: ...
 // Основной модуль программы
 // Содержит обработчики событий главного окна
 // F12 для переключения на форму (или Вид > Переключить форму\модуль)
@@ -6,6 +7,8 @@ unit mainwindow;
 
 
 {$mode objfpc}{$H+}
+// {$H+} — устанавливает тип строк по умолчанию как AnsiString (длинные строки с динамическим управлением памятью).
+// {$mode objfpc} — включает режим Object Pascal с поддержкой ООП.
 
 interface
 
@@ -21,25 +24,28 @@ type
   { TMainForm }
 
   // Класс TMainForm описывает окно программы
-  // Класс - составлной тип данных, определяемый программистом;
+  // Класс - составной тип данных, определяемый программистом;
   // может содержать переменные (поля) и процедуры\функции (методы)
-
   TMainForm = class(TForm)
     // поля класса TMainForm:
     // здесь это всё компоненты на форме; они добавлены через дизайнер форм
     Button_calc: TButton;
-    Edit_t: TEdit;
-    Edit_a: TEdit;
-    Edit_tau: TEdit;
+    // Поля ввода:
+    Edit_t: TEdit;       // параметр t - время
+    Edit_a: TEdit;       // параметр a - начальный размер популяции
+    Edit_tau: TEdit;     // параметр скорости роста популяции - tau
 
+    // Подписи
     Label1: TLabel;
     Label_time: TLabel;
     Label_a: TLabel;
     Label_tau: TLabel;
-    Label_res: TLabel;
+    Label_res: TLabel;      // Показывает результат вычислений - размер популяции
+
+    // Многострочное поле, для вывода отчётов о вычислении
     Memo_report: TMemo;
 
-    // по названию компонентов можно догадаться для чего они используются
+    // ! по названию компонентов можно догадаться для чего они используются
 
     MainMenu: TMainMenu;          // главное меню
     // Пункты меню (редактируются через дизайнер форм: ПКМ на MainMenu > редактор меню
@@ -55,17 +61,20 @@ type
     SaveDialog: TSaveDialog;
 
     // Картинки. См. свойство Picture
-    Image_plot: TImage;
-    Image_formula: TImage;
+    Image_plot: TImage;              // график
+    Image_formula: TImage;           // формула
 
-    // Обработчики событий
+    // Обработчики событий:
+    // Клик на кнопку Считать
     procedure Button_calcClick(Sender: TObject);
+    // Обработчик события Создание формы. Вызывается один раз при старте программы.
     procedure FormCreate(Sender: TObject);
-    procedure MenuItem_exitClick(Sender: TObject);
-    procedure MenuItem_helpClick(Sender: TObject);
-    procedure MenuItem_openClick(Sender: TObject);
-    procedure MenuItem_saveClick(Sender: TObject);
-    procedure MenuItem_save_reportClick(Sender: TObject);
+    // Обработчики событий - клики на пункты меню
+    procedure MenuItem_exitClick(Sender: TObject);        // Выход
+    procedure MenuItem_helpClick(Sender: TObject);        // Справка
+    procedure MenuItem_openClick(Sender: TObject);        // Открыть файл с параметрами
+    procedure MenuItem_saveClick(Sender: TObject);        // Сохранить файл с параметрами
+    procedure MenuItem_save_reportClick(Sender: TObject); // Сохранить отчёт
 
      // считывает содержимое полей ввода в переменные; создана вручную
      // возвращает true если данные введены корректно
@@ -77,6 +86,7 @@ type
 
   end;
 
+
 var
   // Переменная - главное окно программы
   MainForm: TMainForm;
@@ -87,12 +97,13 @@ var
   // t - момент времени, для которого вычисляется размер популяции
   // Y - размер популяции
 
-  // Основные данные программы обязательно должны хранится в отдельных переменных,
-  // а не исключительно в окне программы
+  // ! Основные данные программы обязательно должны хранится в отдельных переменных,
+  // а не исключительно в окне (лейблах и полях ввода) программы
 
 
 implementation
 
+// Указывается имя файла с описанием окна, чтобы из него задавались свойства элеентов интерфейса.
 {$R *.lfm}
 
 { TMainForm }
@@ -107,6 +118,7 @@ begin
 end;
 
 
+// считывает содержимое полей ввода в переменные;
 function TMainForm.DataFromForm():boolean;
 const
   error_color = $b5b5ff;
@@ -158,14 +170,14 @@ end;
 
 
 
-// Выход
+// Обработчик события - клик на пункт меню Выход
 procedure TMainForm.MenuItem_exitClick(Sender: TObject);
 begin
-  MainForm.Close;
+  MainForm.Close;   // закрывает окно, автоматически закроется и программа
 end;
 
 
-// показать информацию о программе
+// Обработчик события - клик на пункт меню Показать информацию о программе
 procedure TMainForm.MenuItem_helpClick(Sender: TObject);
 begin
      Application.MessageBox('Программа вычисляет размер популяции по формуле Y = a * exp (t / tau ).  Автор: ... ',    // содержимое окна
@@ -176,7 +188,7 @@ begin
 end;
 
 
-// Открыть файл с параметрами
+// Обработчик события - клик на пункт меню Открыть файл с параметрами
 procedure TMainForm.MenuItem_openClick(Sender: TObject);
 begin
     if SaveDialog.Execute then
@@ -193,7 +205,7 @@ begin
 end;
 
 
-// Сохранить параметры
+// Обработчик события - клик на пункт меню Сохранить параметры
 procedure TMainForm.MenuItem_saveClick(Sender: TObject);
 begin
     if SaveDialog.Execute then
@@ -206,7 +218,7 @@ begin
 end;
 
 
-// Сохранить отчёт
+// Обработчик события - клик на пункт меню Сохранить отчёт
 procedure TMainForm.MenuItem_save_reportClick(Sender: TObject);
 begin
   if SaveDialog.Execute then
@@ -215,7 +227,7 @@ begin
 end;
 
 
-// основные вычисления
+// основные вычисления - обработчик нажатия на кнопку Считать
 procedure TMainForm.Button_calcClick(Sender: TObject);
 begin
      // получение данных с формы
