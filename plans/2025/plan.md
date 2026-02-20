@@ -35,6 +35,11 @@
 12 февраля
 **Настройка Lazarus**
 - превратить окна Lazarus в панели (однооконный режим) - https://devlaz.ru/lazarus-%D0%B2-%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC-%D0%BE%D0%BA%D0%BD%D0%B5/
+  - Перейдите в меню Сервис (Tools) → Параметры (Options).\
+    В левом дереве выберите раздел Окружение (Environment) → Стыковка (Docking).\
+    Включите опции встроенной стыковки и редактора форм (Enable docking of IDE Windows) \
+    После изменения может потребоваться перезапуск IDE.
+   
 - Не открывать проект при запуске: Tools > Options... > Enviroment: снять галочку "Open last project..."
 - Использовать подсветку синтаксиса с гармоничными цветами: Tools > Options... > Editor - Display - Colors: в выпадающем списке вверху выбрать Delphi вместо Default
 - Запретить ставить курсор дальше конца строки: Tools > Options... > Editor - General: в разделе Caret (Text Cursor) убрать галочку для Allow caret to move past end of line
