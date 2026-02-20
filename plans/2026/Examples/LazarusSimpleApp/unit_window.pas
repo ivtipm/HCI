@@ -7,7 +7,9 @@ unit unit_window;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls,
+  geometry // модуль для вычислений
+  ;
 
 type
 
@@ -34,6 +36,8 @@ type
 
   end;
 
+
+
 var
   // Переменная MainForm - окно программы
   MainForm: TMainForm;
@@ -47,6 +51,8 @@ implementation
 { TMainForm }
 
 
+
+
 // Обрабочик события - нажатие на кнопку
 procedure TMainForm.Button_caclClick(Sender: TObject);
 var
@@ -56,7 +62,7 @@ begin
      a := StrToFloat( Edit_a.Text );
      h := StrToFloat( Edit_h.Text );
 
-     s := a * h / 2.0;
+     s := triangle_area( a, h );
 
      Label_s.Caption := FloatToStr( s );
 

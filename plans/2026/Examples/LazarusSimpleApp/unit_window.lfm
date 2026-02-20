@@ -1,11 +1,11 @@
 object MainForm: TMainForm
   Left = 1520
-  Height = 442
+  Height = 433
   Top = 32
-  Width = 437
+  Width = 413
   Caption = 'Площадь треугольника'
-  ClientHeight = 442
-  ClientWidth = 437
+  ClientHeight = 433
+  ClientWidth = 413
   Font.Height = -21
   Font.Name = 'Sans'
   LCLVersion = '4.4.0.0'
@@ -40,23 +40,23 @@ object MainForm: TMainForm
     Caption = 'Высота'
   end
   object Label3: TLabel
-    Left = 256
+    Left = 216
     Height = 30
-    Top = 72
+    Top = 160
     Width = 95
     Caption = 'Площадь'
   end
   object Label_s: TLabel
-    Left = 368
+    Left = 328
     Height = 30
-    Top = 72
+    Top = 160
     Width = 15
     Caption = '   '
   end
   object Button_cacl: TButton
-    Left = 256
+    Left = 216
     Height = 41
-    Top = 16
+    Top = 104
     Width = 163
     Caption = 'Вычислить'
     TabOrder = 2
