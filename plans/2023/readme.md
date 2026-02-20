@@ -35,6 +35,17 @@
 Опишите 2-4 персонажей и 2-4 сценария использования: 
 https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf
 
+# Занятие 6. Продолжение
+- Добавьте сохранение и загрузку данных, оди или оба варианта:
+  - Сохранение\загрузка матрицы
+  - Сохранение\загрузка остальных данных формы: рамер матрицы, состояние CheckBox, RadioButton, SpinEdit
+Используйте диалоговые окна для выбора файла
+
+Пример: https://github.com/ivtipm/HCI/tree/master/Lazarus-examples/StringGrid_CheckBox_RadioButton_SpinEdit
+
+
+#### Ссылки: 
+- http://www.freepascal.ru/download/pdf/osnovy_programmirovanija_v_srede_lazarus.pdf
 
 # Занятие 6. Работа с таблицей. Продолжение
 Дополните условие задачи в коне программы изображением.
@@ -42,6 +53,7 @@ https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97
 2. Скопируйте изображение в папку с исходными файлами программы.
 3. Укажете имя файла с изображением в свойстве Pixmap компонента TImage
 4. Перед тем как изменить размер компонента на форме, установите режим масштабирования: Proportional = True. Тогда при изменении размеров компонента размер изображения в нём будет меняться с сохранением соотношения сторон.
+
 
 # Занятие 5. Новая программа. Работа с таблицей.
 - Создайте программу решающую задачу 692. Если в вашем варианте нет такой задачи, то выберете пункт в задаче ближайший к вашему варианту.
@@ -70,8 +82,11 @@ https://raw.githubusercontent.com/ivtipm/HCI/master/%D0%A7%D0%9C%D0%92.%20%D0%97
      StringGrid.Col:= 2;
      StringGrid.SetFocus;
 
-     StringGrid.SelectedColor:=clBlue;
+     StringGrid.SelectedColor:=clBlue;        // цвет стоит поменять
      StringGrid.Options := StringGrid.Options + [goDrawFocusSelected];
+
+// Снять выделение с ячеек = задать настройки отображения по-умолчанию:
+StringGrid.Options := [goFixedVertLine,goFixedHorzLine,goVertLine,goHorzLine,goRangeSelect,goSmoothScroll];
 ```
 
 

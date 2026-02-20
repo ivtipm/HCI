@@ -131,6 +131,81 @@ skinparam noteBackgroundColor HSV(0.5,0.8,0.9)
 skinparam dpi 300
 ```
 
+## Стиль для отдельных элементов
+Можно отдельно описать стиль для элементов диаграммы: акторов, прецедентов, классов и т.п.
+
+Например описание стиля классов:
+```
+<style>
+class{
+    BackgroundColor: LightBlue;
+    FontColor: red;
+    LineColor: yellow;
+}
+</style>
+```
+
+Перечень свойств: https://plantuml.com/style-evolution
+
+Пример настройки стиля всех акторов
+```
+<style>
+' Настройка стиля всех акторов
+actor {
+    ' Цвет фона
+    BackgroundColor LightGreen
+    
+    ' Цвет и толщина линий
+    LineColor green
+    LineThiCkness 2
+
+    ' Текст:
+    ' Можно привести список шрифтов, будет использован первый, из доступных в ОС
+    ' Можно задать только категорию шрифта: serif, sans, monospaced
+    FontName "Fira Code", monospaced
+    ' Начертание
+    FontStyle italic
+    ' Размер
+    FontSize 20
+    ' Цвет
+    FontColor DarkGreen
+}
+</style>
+```
+
+**Задание глобальных параметров для диаграммы**
+```
+' Задать параметры для диаграммы классов
+classDiagram{
+    LineColor #888;
+}
+```
+
+
+Стиль для конкретного элемента можно задать через специальный стереотип (метку)
+```
+<style>
+    ' Задание стиля для стереотипа (метки)
+    ' Название стереотипа должно начинаться на точку (как селектор в CSS)
+    .my_class {
+            BackgroundColor green;
+    }
+</style>
+
+
+' Скроем стереотип с диаграммы;
+hide <<my_class>> stereotype
+
+
+' Добавим для класса стереотип
+interface IWorker <<my_class>>{
+   + work();
+}
+
+class Worker{
+   + work();
+}
+```
 ## Основные элементы (для диаграмм прецедентов / вариантов использования)
 
 ```
@@ -164,4 +239,5 @@ Admin --> UC3
 ![пример use case](use_case_example1.png)
 
 # Ссылки
+- См. также mermaid диаграммы - более простой язык описания диаграмм, которые могут изображаться большинством программ отображающих markdown
 - Полное руководство по языку PlantUML: https://pdf.plantuml.net/PlantUML_Language_Reference_Guide_en.pdf
