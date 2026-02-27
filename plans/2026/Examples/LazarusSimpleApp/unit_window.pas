@@ -26,6 +26,7 @@ type
     Label2: TLabel;
     Label3: TLabel;
     Label_s: TLabel;     // Label для вывода площади
+    Memo_report: TMemo;
 
     // Обработчики событий:
     // Обработчик событий нажатие для кнопки
@@ -58,13 +59,49 @@ procedure TMainForm.Button_caclClick(Sender: TObject);
 var
   // длина оснвоания, высота, площадь трегольника
   a, h, s : Real;
+  is_error: boolean;
 begin
-     a := StrToFloat( Edit_a.Text );
-     h := StrToFloat( Edit_h.Text );
+     is_error := False;
 
-     s := triangle_area( a, h );
+     ///
+     if not TryStrToFloat( Edit_a.Text, a ) then
+        begin
+          a := 0;
+          Memo_report.Lines.Append('Ошибка задания длины основания');
+          is_error := True;
+        end;
 
-     Label_s.Caption := FloatToStr( s );
+     if not TryStrToFloat( Edit_h.Text, h ) then
+        begin
+          h := 0;
+          Memo_report.Lines.Append('Ошибка задания высоты');
+          is_error := True;
+        end;
+
+
+     if a < 0 then
+        begin
+           Memo_report.Lines.Append('Длина основания не может быть отрицательной');
+           is_error := True;
+        end;
+
+
+     if h < 0 then
+        begin
+           Memo_report.Lines.Append('Высота не может быть отрицательной');
+           is_error := True;
+        end;
+
+
+     if is_error = False then
+        begin
+           s := triangle_area( a, h );
+
+           Label_s.Caption := FloatToStr( s );
+
+           Memo_report.Lines.Append( 'a = ' + FloatToStr(a) + ', h = '  + FloatToStr(h) + '; S = ' + FloatToStr(s) );
+          // см. Format
+     end;
 
 end;
 

@@ -1,11 +1,11 @@
 object MainForm: TMainForm
   Left = 1520
-  Height = 433
+  Height = 425
   Top = 32
-  Width = 413
+  Width = 779
   Caption = 'Площадь треугольника'
-  ClientHeight = 433
-  ClientWidth = 413
+  ClientHeight = 425
+  ClientWidth = 779
   Font.Height = -21
   Font.Name = 'Sans'
   LCLVersion = '4.4.0.0'
@@ -66,7 +66,7 @@ object MainForm: TMainForm
     Left = 24
     Height = 200
     Top = 216
-    Width = 368
+    Width = 352
     Picture.Data = {
       1754506F727461626C654E6574776F726B477261706869639E13000089504E47
       0D0A1A0A0000000D49484452000002E40000017208030000008AAD3F94000000
@@ -228,5 +228,25 @@ object MainForm: TMainForm
       0000A01AFF0F5C95C982D3D072950000000049454E44AE426082
     }
     Stretch = True
+  end
+  object Memo_report: TMemo
+    AnchorSideLeft.Control = Button_cacl
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 394
+    Height = 405
+    Top = 10
+    Width = 375
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    ScrollBars = ssAutoBoth
+    TabOrder = 3
   end
 end

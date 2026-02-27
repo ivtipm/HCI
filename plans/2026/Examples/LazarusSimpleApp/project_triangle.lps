@@ -11,7 +11,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="22"/>
       </Unit>
       <Unit>
         <Filename Value="unit_window.pas"/>
@@ -20,9 +20,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="23"/>
-        <CursorPos Y="36"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="78"/>
+        <CursorPos X="14" Y="90"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -30,12 +30,12 @@
         <Filename Value="geometry.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="11" Y="10"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="58" Y="11"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="6">
+    <JumpHistory HistoryIndex="10">
       <Position>
         <Filename Value="unit_window.pas"/>
         <Caret Line="11" Column="19" TopLine="4"/>
@@ -63,6 +63,22 @@
       <Position>
         <Filename Value="unit_window.pas"/>
         <Caret Line="56" Column="13" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_window.pas"/>
+        <Caret Line="61" Column="6" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_window.pas"/>
+        <Caret Line="70" Column="112" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_window.pas"/>
+        <Caret Line="71" Column="15" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_window.pas"/>
+        <Caret Line="65" Column="27" TopLine="54"/>
       </Position>
     </JumpHistory>
     <RunParams>
