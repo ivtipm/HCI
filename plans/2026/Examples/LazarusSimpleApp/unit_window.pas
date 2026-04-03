@@ -35,6 +35,8 @@ type
     Memo_report: TMemo;
 
     MainMenu: TMainMenu;
+    MenuItem_load_report: TMenuItem;
+    MenuItem_save_report: TMenuItem;
     MenuItem_author: TMenuItem;
     MenuItem_Exit: TMenuItem;
     MenuItem_Load: TMenuItem;
@@ -50,7 +52,9 @@ type
     procedure MenuItem_authorClick(Sender: TObject);
     procedure MenuItem_ExitClick(Sender: TObject);
     procedure MenuItem_LoadClick(Sender: TObject);
+    procedure MenuItem_load_reportClick(Sender: TObject);
     procedure MenuItem_SaveClick(Sender: TObject);
+    procedure MenuItem_save_reportClick(Sender: TObject);
 
     /// .....
     function read_and_check_values(): boolean;
@@ -172,7 +176,24 @@ end;
 procedure TMainForm.MenuItem_LoadClick(Sender: TObject);
 begin
 
+     if OpenDialog.Execute then
+        begin
+             load_triangle_data( OpenDialog.FileName, a, h );
 
+             Edit_a.Text := FloatToStr(a);
+             Edit_h.Text := FloatToStr(h);
+        end;
+
+end;
+
+
+// Загрузка отчёта
+procedure TMainForm.MenuItem_load_reportClick(Sender: TObject);
+begin
+     if OpenDialog.Execute then
+     begin
+          Memo_report.Lines.LoadFromFile( SaveDialog.FileName );
+     end;
 end;
 
 
@@ -186,12 +207,12 @@ begin
      if read_and_check_values() = False then
         begin
 
-         if SaveDialog.Execute then ;                       // показать окно выбора файла
+         if SaveDialog.Execute then                       // SaveDialog.Execute - показать окно выбора файла
+
          begin
          filename := SaveDialog.FileName;
 
          AssignFile ( file_data, filename );
-
          Rewrite( file_data );
 
          writeln(file_data, a);
@@ -200,6 +221,16 @@ begin
          CloseFile( file_data );
          end;
         end;
+end;
+
+
+// Сохранение отчёта
+procedure TMainForm.MenuItem_save_reportClick(Sender: TObject);
+begin
+      if SaveDialog.Execute then
+      begin
+           Memo_report.Lines.SaveToFile( SaveDialog.FileName );
+      end;
 end;
 
 end.

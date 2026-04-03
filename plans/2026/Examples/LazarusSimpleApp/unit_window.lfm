@@ -2709,11 +2709,20 @@ object MainForm: TMainForm
       Caption = 'Файл'
       object MenuItem_Load: TMenuItem
         Caption = 'Загрузить'
+        ShortCut = 16463
         OnClick = MenuItem_LoadClick
       end
       object MenuItem_Save: TMenuItem
         Caption = 'Сохранить'
         OnClick = MenuItem_SaveClick
+      end
+      object MenuItem_save_report: TMenuItem
+        Caption = 'Сохранить отчёт'
+        OnClick = MenuItem_save_reportClick
+      end
+      object MenuItem_load_report: TMenuItem
+        Caption = 'Загрузить отчёт'
+        OnClick = MenuItem_load_reportClick
       end
       object MenuItem_Exit: TMenuItem
         Caption = 'Выход'
